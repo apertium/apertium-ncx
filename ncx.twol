@@ -1,0 +1,41 @@
+Alphabet
+ 
+ A B C D E F G H I J K L M N O P Q R S T U W X Y Z
+ a b c d e f g h i j k l m n o p q r s t u w x y z
+ %{i%}:i %{i%}:0
+ %{m%}:m %{m%}:0 
+ %{M%}:m %{M%}:n 
+ %>:%> ;
+
+
+Sets
+
+Vow   = A E I O U 
+        a e i o u ;
+
+Cns   = b c d f g h j k l m n p q r s t w x y z ;
+
+
+Rules
+"Morpheme boundary"
+%>:0 <=> _ ; 
+
+"inmi -> in pt I"
+%{m%}:m <=> i n _ %{i%}: %>: Vow ;
+
+"inmi -> in pt II"
+%{i%}:i <=> i n %{m%}: _ %>: Vow ;
+
+"in -> inmi pt I"
+%{m%}:0 <=> i n _ %{i%}: %>: Cns ;
+
+"in -> inmi pt II"
+%{i%}:0 <=> i n %{m%}: _ %>: Cns ;
+
+"m -> n word final and before t"
+%{M%}:n <=> _ .#. ;
+
+"m -> n before t"
+%{M%}:n <=> _ %>: t i %>: ;
+
+
