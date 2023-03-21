@@ -136,7 +136,8 @@ Multichar_Symbols
 
 
 @U.Subj.PL@
-
+@P.Subj.PL@
+@R.Subj.PL@
 
 
 
@@ -271,7 +272,7 @@ LEXICON SujetoVerbal
 %<s_sg1%>:ni%>  	SujetoCont ;
 %<s_sg2%>:ti%>  	SujetoCont ;
 %<s_sg3%>:0     	SujetoCont ;
-%<s_pl1%>:ti%>          SujetoCont ;
+@P.Subj.PL@%<s_pl1%>:@P.Subj.PL@ti%>          SujetoCont ;
 %<s_pl2%>:nan%> 	SujetoCont ;
 %<s_pl3%>:0             SujetoCont ;
 
@@ -423,7 +424,7 @@ SufijoAuxiliar ;
 
 LEXICON TAM-Clase2-i
 %<pres%>:i # ;
-%<pres%>:i%>j # ; ! TODO: flag diacritics for plural subj
+@R.Subj.PL@%<pres%>:@R.Subj.PL@i%>j # ; ! TODO: flag diacritics for plural subj
 %<pret%>:0 # ;
 %<pret%>:%>kej # ;
 %<impf%>:i%>ya # ;
