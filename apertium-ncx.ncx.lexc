@@ -135,9 +135,11 @@ Multichar_Symbols
 %>                                       ! Frontera de morfema
 
 
-@U.Subj.PL@
-@P.Subj.PL@
-@R.Subj.PL@
+@P.SubjPl.1@
+
+@R.SubjPl.1@
+
+@D.SubjPl@
 
 
 
@@ -203,9 +205,9 @@ LEXICON SujetoNominal
 %<s_sg1%>:ni%>  PrefijoPosesivo ;
 %<s_sg2%>:ti%>  PrefijoPosesivo ;
 %<s_sg3%>:0     PrefijoPosesivo ;
-%<s_pl1%>:ti%>  PrefijoPosesivo ;
-%<s_pl2%>:nan%> PrefijoPosesivo ;
-%<s_pl3%>:0     PrefijoPosesivo ;
+@P.SubjPl.1@%<s_pl1%>:@P.SubjPl.1@ti%>  PrefijoPosesivo ;
+@P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@nan%> PrefijoPosesivo ;
+@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0     PrefijoPosesivo ;
 
 LEXICON PrefijoPosesivo
 Sustantivo ;
@@ -261,6 +263,8 @@ askatl:aska      TL ; ! "hormiga"
 
 tixtli:tix	 TLI ; ! "masa"
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON Aumento
 
 :o%> SujetoVerbal ;
@@ -272,9 +276,9 @@ LEXICON SujetoVerbal
 %<s_sg1%>:ni%>  	SujetoCont ;
 %<s_sg2%>:ti%>  	SujetoCont ;
 %<s_sg3%>:0     	SujetoCont ;
-@P.Subj.PL@%<s_pl1%>:@P.Subj.PL@ti%>          SujetoCont ;
-%<s_pl2%>:nan%> 	SujetoCont ;
-%<s_pl3%>:0             SujetoCont ;
+@P.SubjPl.1@%<s_pl1%>:@P.SubjPl.1@ti%>  SujetoCont ;
+@P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@nan%> SujetoCont ;
+@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0     SujetoCont ;
 
 LEXICON SujetoCont
 IV-Dir ;
@@ -377,6 +381,17 @@ DV-Te   ;
 DV-Tla  ;
 DV-Raiz ;
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Agr-Sg
+
+@D.SubjPl@:@D.SubjPl@ # ;
+!# ; 
+
+LEXICON Agr-Pl 
+
+@R.SubjPl.1@:@R.SubjPl.1@ # ;
+
 LEXICON Purposive ! en spanish?
 %<aux%>:%>ti # ;
 %<aux%>:%>to # ;
@@ -388,20 +403,20 @@ LEXICON Purposive ! en spanish?
 %<aux%>%<pret%>:%>ko%>j # ;
 
 LEXICON TAM-Clase1
-%<pres%>:0 # ;
-%<pres%>:%>j # ; ! TODO: flag diacritics for plural subj
-%<pret%>:k # ;
-%<pret%>:%>kej # ;
-%<impf%>:%>ya # ;
-%<impf%>:%>ya%>j # ;
-%<fut%>:%>s # ;
-%>s Neki-Aux ;
-%<fut%>:%>s%>kej # ;
-%<pres%>%<dur%>:to%>k # ;
-%<impf%>%<dur%>:to%>ya # ;
-%<impf%>%<dur%>:to%>ya%>j # ;
-%<fut%>%<dur%>:to%>s # ;
-%<fut%>%<dur%>:to%>s%>kej # ;
+%<pres%>:0 Agr-Sg ;
+%<pres%>:%>j Agr-Pl ; ! TODO: flag diacritics for plural subj
+%<pret%>:k Agr-Sg ;
+%<pret%>:%>kej Agr-Pl ;
+%<impf%>:%>ya Agr-Sg ;
+%<impf%>:%>ya%>j Agr-Pl ;
+%<fut%>:%>s Agr-Sg ;
+:%>s Neki-Aux ;
+%<fut%>:%>s%>kej Agr-Pl ;
+%<pres%>%<dur%>:to%>k Agr-Sg ;
+%<impf%>%<dur%>:to%>ya Agr-Sg ;
+%<impf%>%<dur%>:to%>ya%>j Agr-Pl ;
+%<fut%>%<dur%>:to%>s Agr-Sg ;
+%<fut%>%<dur%>:to%>s%>kej Agr-Pl ;
 SufijoAuxiliar ;
 
 
@@ -424,7 +439,7 @@ SufijoAuxiliar ;
 
 LEXICON TAM-Clase2-i
 %<pres%>:i # ;
-@R.Subj.PL@%<pres%>:@R.Subj.PL@i%>j # ; ! TODO: flag diacritics for plural subj
+@R.SubjPl.1@%<pres%>:@R.SubjPl.1@i%>j # ; ! TODO: flag diacritics for plural subj
 %<pret%>:0 # ;
 %<pret%>:%>kej # ;
 %<impf%>:i%>ya # ;
