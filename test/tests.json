@@ -1,0 +1,10 @@
+{
+    "analysis": {
+        "input": "analysis-input.txt",
+        "mode": "ncx-disam"
+    },
+    "generation": {
+        "input": "generation-input.txt",
+        "mode": "ncx-gener"
+    }
+}

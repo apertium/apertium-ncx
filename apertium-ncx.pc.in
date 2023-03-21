@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-ncx
+
+Name: apertium-ncx
+Description: Finite-state morphological transducer and constraint grammar for Central Puebla Nahuatl
+Version: @VERSION@
+
