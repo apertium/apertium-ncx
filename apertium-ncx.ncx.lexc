@@ -131,17 +131,17 @@ Multichar_Symbols
 %{z%}                                    ! z/c
 %{e%}
 %{%@%}                                   ! para terminaciones -o y -a en sustantivos y/o adjetivos
-
+%{y%}					 ! y/x (ej pretérito de piya)
 %>                                       ! Frontera de morfema
 
 
 @P.SubjPl.1@
-
 @R.SubjPl.1@
-
 @D.SubjPl@
 
-
+@P.IsPast.1@
+@R.IsPast.1@
+@D.IsPast@
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -267,7 +267,7 @@ tixtli:tix	 TLI ; ! "masa"
 
 LEXICON Aumento
 
-:o%> SujetoVerbal ;
+@P.IsPast.1@:@P.IsPast.1@o%> SujetoVerbal ;
 SujetoVerbal ;
 
 
@@ -275,10 +275,10 @@ LEXICON SujetoVerbal
 
 %<s_sg1%>:ni%>  	SujetoCont ;
 %<s_sg2%>:ti%>  	SujetoCont ;
-%<s_sg3%>:0     	SujetoCont ;
+%<s_sg3%>:0%>     	SujetoCont ;
 @P.SubjPl.1@%<s_pl1%>:@P.SubjPl.1@ti%>  SujetoCont ;
 @P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@nan%> SujetoCont ;
-@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0     SujetoCont ;
+@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0%>     SujetoCont ;
 
 LEXICON SujetoCont
 IV-Dir ;
@@ -383,113 +383,138 @@ DV-Raiz ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Agr-Sg
+LEXICON Agr-Pl-Past
+@R.SubjPl.1@@R.IsPast.1@:@R.SubjPl.1@@R.IsPast.1@ # ;
 
-@D.SubjPl@:@D.SubjPl@ # ;
-!# ; 
+LEXICON Agr-Sg-Past
+@D.SubjPl@@R.IsPast.1@:@D.SubjPl@@R.IsPast.1@ # ;
 
-LEXICON Agr-Pl 
+LEXICON Agr-Pl-Nonpast
+@R.SubjPl.1@@D.IsPast@:@R.SubjPl.1@@D.IsPast@ # ;
 
-@R.SubjPl.1@:@R.SubjPl.1@ # ;
+LEXICON Agr-Sg-Nonpast
+@D.SubjPl@@D.IsPast@:@D.SubjPl@@D.IsPast@ # ;
+
 
 LEXICON Purposive ! en spanish?
-%<aux%>:%>ti # ;
-%<aux%>:%>to # ;
-%<aux%>%<pret%>:%>ki # ;
-%<aux%>%<pret%>:%>ko # ;
-%<aux%>:%>ti%>j # ;
-%<aux%>:%>to%>j # ;
-%<aux%>%<pret%>:%>ki%>j # ;
-%<aux%>%<pret%>:%>ko%>j # ;
+%<aux%>:%>ti Agr-Sg-Nonpast ;
+%<aux%>:%>to Agr-Sg-Nonpast ;
+%<aux%>%<pret%>:%>ki Agr-Sg-Past ;
+%<aux%>%<pret%>:%>ko Agr-Sg-Past ;
+%<aux%>:%>ti%>j Agr-Pl-Nonpast ;
+%<aux%>:%>to%>j Agr-Pl-Nonpast ;
+%<aux%>%<pret%>:%>ki%>j Agr-Pl-Past ;
+%<aux%>%<pret%>:%>ko%>j Agr-Pl-Past ;
 
 LEXICON TAM-Clase1
-%<pres%>:0 Agr-Sg ;
-%<pres%>:%>j Agr-Pl ; ! TODO: flag diacritics for plural subj
-%<pret%>:k Agr-Sg ;
-%<pret%>:%>kej Agr-Pl ;
-%<impf%>:%>ya Agr-Sg ;
-%<impf%>:%>ya%>j Agr-Pl ;
-%<fut%>:%>s Agr-Sg ;
+%<pres%>:0 Agr-Sg-Nonpast ;
+%<pres%>:%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:%>k Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:%>ya Agr-Sg-Past ;
+%<impf%>:%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
 :%>s Neki-Aux ;
-%<fut%>:%>s%>kej Agr-Pl ;
-%<pres%>%<dur%>:to%>k Agr-Sg ;
-%<impf%>%<dur%>:to%>ya Agr-Sg ;
-%<impf%>%<dur%>:to%>ya%>j Agr-Pl ;
-%<fut%>%<dur%>:to%>s Agr-Sg ;
-%<fut%>%<dur%>:to%>s%>kej Agr-Pl ;
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
 SufijoAuxiliar ;
+
+LEXICON TAM-Clase1-ita
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:a%>k Agr-Sg-Past ;
+%<pret%>:a%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:a%>s Agr-Sg-Nonpast ;
+:%>s Neki-Aux ;
+%<fut%>:a%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:s%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:s%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:s%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:s%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:s%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:s%>to%>s%>kej Agr-Pl-Nonpast ;
+:%>s SufijoAuxiliar ;
 
 
 LEXICON TAM-Clase2-a
-%<pres%>:a # ;
-%<pres%>:a%>j # ; ! TODO: flag diacritics for plural subj
-%<pret%>:0 # ;
-%<pret%>:%>kej # ;
-%<impf%>:a%>ya # ;
-%<impf%>:a%>ya%>j # ;
-%<fut%>:a%>s # ;
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:a%>s Agr-Sg-Nonpast ;
 a%>s Neki-Aux ;
-%<fut%>:a%>s%>kej # ;
-%<pres%>%<dur%>:to%>k # ;
-%<impf%>%<dur%>:to%>ya # ;
-%<impf%>%<dur%>:to%>ya%>j # ;
-%<fut%>%<dur%>:to%>s # ;
-%<fut%>%<dur%>:to%>s%>kej # ;
+%<fut%>:a%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
 SufijoAuxiliar ;
 
 LEXICON TAM-Clase2-i
-%<pres%>:i # ;
-@R.SubjPl.1@%<pres%>:@R.SubjPl.1@i%>j # ; ! TODO: flag diacritics for plural subj
-%<pret%>:0 # ;
-%<pret%>:%>kej # ;
-%<impf%>:i%>ya # ;
-%<impf%>:i%>ya%>j # ;
-%<fut%>:i%>s # ;
+%<pres%>:i Agr-Sg-Nonpast ;
+%<pres%>:i%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:i%>ya Agr-Sg-Past ;
+%<impf%>:i%>ya%>j Agr-Pl-Past ;
+%<fut%>:i%>s Agr-Sg-Nonpast ;
 i%>s Neki-Aux ;
-%<fut%>:i%>s%>kej # ;
-%<pres%>%<dur%>:%>to%>k # ;
-%<impf%>%<dur%>:%>to%>ya # ;
-%<impf%>%<dur%>:%>to%>ya%>j # ;
-%<fut%>%<dur%>:%>to%>s # ;
-%<fut%>%<dur%>:%>to%>s%>kej # ;
+%<fut%>:i%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
 SufijoAuxiliar ;
 
 
 LEXICON TAM-Clase3
-%<pres%>:a # ;
-%<pres%>:a%>j # ; ! TODO: flag diacritics for plural subj
-%<pret%>:0 # ;
-%<pret%>:j%>kej # ;
-%<impf%>:a%>ya # ;
-%<impf%>:a%>ya%>j # ;
-%<fut%>:%>s # ;
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:j%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
 %>s Neki-Aux ;
-%<fut%>:%>s%>kej # ;
-%<pres%>%<dur%>:j%>to%>k # ;
-%<fut%>:j%>to%>kej # ;
-%<impf%>%<dur%>:j%>to%>ya # ;
-%<impf%>%<dur%>:j%>to%>ya%>j # ;
-%<fut%>%<dur%>:j%>to%>s # ;
-%<fut%>%<dur%>:j%>to%>s%>kej # ;
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:j%>to%>k Agr-Sg-Nonpast;
+%<pres%>%<dur%>:j%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:j%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:j%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:j%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:j%>to%>s%>kej Agr-Pl-Nonpast ;
 SufijoAuxiliar ;
 
 
 LEXICON TAM-Clase4
-%<pres%>:0 # ;
-%<pres%>:a%>j # ;
-%<pret%>: # ;
-%<pret%>:j%>kej # ;
-%<impf%>:a%>ya # ;
-%<impf%>:a%>ya%>j # ;
-%<fut%>:%>s # ;
+%<pres%>:0 Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ;
+%<pret%>: Agr-Sg-Past ;
+%<pret%>:j%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
 %>s Neki-Aux ;
-%<fut%>:%>s%>kej # ;
-%<pres%>%<dur%>:j%>to%>k # ;
-%<fut%>:j%>to%>kej # ;
-%<impf%>%<dur%>:j%>to%>ya # ;
-%<impf%>%<dur%>:j%>to%>ya%>j # ;
-%<fut%>%<dur%>:j%>to%>s # ;
-%<fut%>%<dur%>:j%>to%>s%>kej # ;
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:j%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:j%>to%>kej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:j%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:j%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:j%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:j%>to%>s%>kej Agr-Pl-Nonpast ;
 SufijoAuxiliar ;
 
 LEXICON SufijoAuxiliar
@@ -499,39 +524,42 @@ Tiuits-Aux ;
 Purposive ;
 
 LEXICON Tinemi-Aux
-%<aux%>%<pres%>:%>ti%>nemi # ;
-%<aux%>%<impf%>:%>ti%>nemi%>ya # ;
-%<aux%>%<impf%>:%>ti%>nemi%>ya%>j # ;
-%<aux%>%<fut%>:%>ti%>nemi%>s # ;
-%<aux%>%<fut%>:%>ti%>nemi%>s%>kej # ;
-%<aux%>%<pres%>%<dur%>:%>ti%>nen%>to%>k # ;
-%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya # ;
-%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya%>j # ;
-%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s # ;
-%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s%>kej # ;
+%<aux%>%<pres%>%+nemi:%>ti%>nemi Agr-Sg-Nonpast ;
+%<aux%>%<impf%>:%>ti%>nemi%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>:%>ti%>nemi%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>:%>ti%>nemi%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>:%>ti%>nemi%>s%>kej Agr-Pl-Nonpast ;
+%<aux%>%<pres%>%<dur%>:%>ti%>nen%>to%>k Agr-Sg-Nonpast ;
+%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s%>kej Agr-Pl-Nonpast ;
 
 LEXICON Tijtia-Aux
-%<aux%>%<pres%>:%>ti%>jtia # ;
-%<aux%>%<impf%>:%>ti%>jtia%>ya # ;
-%<aux%>%<impf%>:%>ti%>jtia%>ya%>j # ;
-%<aux%>%<fut%>:%>ti%>jti%>s # ;
-%<aux%>%<fut%>:%>ti%>jti%>s%>kej # ;
-%<aux%>%<pres%>%<dur%>:%>ti%>jti%>to%>k # ;
-%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya # ;
-%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya%>j # ;
-%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s # ;
-%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s%>kej # ;
+%<aux%>%<pres%>:%>ti%>jtia Agr-Sg-Nonpast ;
+%<aux%>%<pres%>:%>ti%>jtia%>j Agr-Pl-Nonpast ;
+%<aux%>%<impf%>:%>ti%>jtia%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>:%>ti%>jtia%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>:%>ti%>jti%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>:%>ti%>jti%>s%>kej Agr-Pl-Nonpast ;
+%<aux%>%<pres%>%<dur%>:%>ti%>jti%>to%>k Agr-Sg-Nonpast ;
+%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s%>kej Agr-Pl-Nonpast ;
 
 LEXICON Tiuits-Aux
-%<aux%>%<pres%>:%>ti%>uits # ;
+%<aux%>%<pres%>:%>ti%>uits Agr-Sg-Nonpast ;
 ! TODO: figure out the rest of these (TAM)
 
 LEXICON Neki-Aux
-%<aux%>:neki # ;
-%<aux%>:neki%>j # ;
+%<aux%>:neki Agr-Sg-Nonpast ;
+%<aux%>:neki%>j Agr-Pl-Nonpast ;
 
 
 LEXICON IV-Raiz
+
+palti%<iv%>:palti          TAM-Clase1 ; ! "mojarse"
 
 nejnemi%<iv%>:nejne%{M%}   TAM-Clase2-i ;
 kochi%<iv%>:koch           TAM-Clase2-i ;
@@ -540,19 +568,22 @@ uetsi%<iv%>:uets           TAM-Clase2-i ;
 miki%<iv%>:mik             TAM-Clase2-i ;
 patlani%<iv%>:patlan       TAM-Clase2-i ;
 nemi%<iv%>:ne%{m%}         TAM-Clase2-i ;
-
 kisa%<iv%>:kis		   TAM-Clase2-a ;
 
-palti%<iv%>:palti	   TAM-Clase1 ; ! "mojarse"
 
 kualtia%<iv%>:kualti	   TAM-Clase3 ; ! "servir/estar bueno/no pudrido"
-tlajtoa%<iv%>:tlajto	   TAM-Clase3 ; 
+tlajtoa%<iv%>:tlajto	   TAM-Clase3 ; ! "hablar"
+panoa%<iv%>:pano	   TAM-Clase3 ; ! "pasar"
+chantia%<iv%>:chanti	   TAM-Clase3 ; ! "vivir"
+
+ueli%<iv%>:ueli		   TAM-Clase4 ;
 
 
 LEXICON TV-Raiz
 
 kua%<tv%>:kua		   TAM-Clase4 ; ! "consumir/comer"
 paleuia%<tv%>:paleui	   TAM-Clase3 ; ! "ayudar"
+panoa%<tv%>pano		   TAM-Clase3 ; ! "pasar (a alguien/algo)"
 
 chiua%<tv%>:chiu           TAM-Clase2-a ; ! "hacer"
 kaua%<tv%>:kau             TAM-Clase2-a ; ! "dejar"
@@ -560,14 +591,18 @@ koua%<tv%>:kou             TAM-Clase2-a ; ! "comprar"
 chipaua%<tv%>:chipau	   TAM-Clase2-a ; ! "limpiar"
 xipeua%<tv%>:xipeu	   TAM-Clase2-a ; ! "pelar"
 paka%<tv%>:pak		   TAM-Clase2-a ; ! "lavar"
+ijtoa%<tv%>:ijto           TAM-Clase2-a ; ! "decir"
+piya%<tv%>:pi%{y%}	   TAM-Clase2-a ; ! "tener"
 
 kaki%<tv%>:kak             TAM-Clase2-i ; ! "escuchar"
 mati%<tv%>:mat             TAM-Clase2-i ; ! "saber"
 teki%<tv%>:tek             TAM-Clase2-i ; ! "cortar"
 tejteki%<tv%>:tejtek       TAM-Clase2-i ; ! "cortar varias veces"
+neki%<tv%>:nek             TAM-Clase2-i ; ! "querer"
 
 namaka%<tv%>:namaka	   TAM-Clase1 ; ! "vender s.t."
 tlasojtla%<tv%>:tlasojtla  TAM-Clase1 ; ! "amar"
+ita%<tv%>:it		   TAM-Clase1-ita ; !"ver"
 
 LEXICON DV-Raiz
 maka%<tv2%>:maka       	   TAM-Clase1 ; ! "dar"

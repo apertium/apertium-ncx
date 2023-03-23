@@ -5,6 +5,7 @@ Alphabet
  %{i%}:i %{i%}:0
  %{m%}:m %{m%}:0 
  %{M%}:m %{M%}:n 
+ %{y%}:y %{y%}:x
  %>:%> ;
 
 
@@ -42,5 +43,14 @@ Rules
 %{i%}:0 <=> %>: k  _ %>: Vow ;
 
 "i -> 0 in /k/ between V and C"
-%{i%}:0 <=> Vow %>: k _ %>: Cns ;
+%{i%}:0 <=> [a | e | i] %>: k _ %>: Cns ;
+
+"i -> i in /k/ otherwise"
+%{i%}:i <=> [Cns | .#. | o] %>:? k _ %>: Cns ;
+
+"{y}->x at EOW or if next morpheme starts with a consonant"
+%{y%}:x <=> _ [.#. | %>: Cns] ;
+
+"{y}->y elsewhere"
+%{y%}:y <=> _ Vow ;
 
