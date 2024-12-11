@@ -4,16 +4,17 @@
 
 
 Multichar_Symbols
-@D.IsPast@
+@P.SubjPl.1@
+@R.SubjPl.1@
+@P.Obj.NotPl1@
 @P.Opt.1@
 @D.SubjPl@
-@R.SubjPl.1@
-@R.IsPast.1@
-@P.IsPast.1@
-@U.ObjPl1.1@
-@R.Opt@
-@P.SubjPl.1@
 @D.Opt@
+@R.Opt@
+@R.IsPast.1@
+@D.IsPast@
+@P.IsPast.1@
+@D.Obj.NotPl1@
 
 %<n%>                                    ! Sustantivo
 %<v%>                                    ! Verbo
@@ -301,8 +302,8 @@ LEXICON SujetoVerbal
 ! Cuando el sujeto es 2 plural (usteded), y el objeto es 1 plural (a nosotros), hay un tipo de harmonía entre 
 ! los consonantes, y la n del prefijo de sujeto se convierte en t.
 !
-@P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@nan%>                                  SujetoCont ; ! 
-@U.ObjPl1.1@%<s_pl2%>:@U.ObjPl1.1@tan%>                                  SujetoCont ; ! 
+@P.Obj.NotPl1@%<s_pl2%>:@P.Obj.NotPl1@nan%>                                  SujetoCont ; ! 
+@P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@tan%>                                  SujetoCont ; ! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
@@ -324,7 +325,7 @@ DV-Dir ;
 %<o_sg1%>:nech%>    TV-Dir ;
 %<o_sg2%>:mits%>    TV-Dir ;
 %<o_sg3%>:k%{i%}%>  TV-Dir ;
-@U.ObjPl1.1@%<o_pl1%>:@U.ObjPl1.1@tech%>    TV-Dir ; ! 
+@D.Obj.NotPl1@%<o_pl1%>:@D.Obj.NotPl1@tech%>    TV-Dir ; ! 
 %<o_pl2%>:amech%>   TV-Dir ; ! según flores-nájera
 !%<o_pl2%>:namech%>  TV-Dir ; ! con sujeto de tercera persona.
 %<o_pl3%>:ki%{m%}%> TV-Dir ;
