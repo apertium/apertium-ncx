@@ -21,17 +21,22 @@ Rules
 "Morpheme boundary"
 %>:0 <=> _ ; 
 
-"inmi -> in pt I"
-%{m%}:m <=> i n _ %{i%}: %>: Vow ;
+!
+! These rules were for ximomachti grammar, but don't appear to hold for 
+! nhn/san miguel canoa
+!
 
-"inmi -> in pt II"
-%{i%}:i <=> i n %{m%}: _ %>: Vow ;
+! "inmi -> in pt I"
+! %{m%}:m <=> i n _ %{i%}: %>: Vow ;
 
-"in -> inmi pt I"
-%{m%}:0 <=> i n _ %{i%}: %>: Cns ;
+! "inmi -> in pt II"
+! %{i%}:i <=> i n %{m%}: _ %>: Vow ;
 
-"in -> inmi pt II"
-%{i%}:0 <=> i n %{m%}: _ %>: Cns ;
+! "in -> inmi pt I"
+! %{m%}:0 <=> i n _ %{i%}: %>: Cns ;
+
+! "in -> inmi pt II"
+! %{i%}:0 <=> i n %{m%}: _ %>: Cns ;
 
 "m -> n word final and before t"
 %{M%}:n <=> _ .#. ;
@@ -39,14 +44,17 @@ Rules
 "m -> n before t"
 %{M%}:n <=> _ %>: t ;
 
-"i -> 0 in /k/ when followed by a V"
-%{i%}:0 <=> %>: k  _ %>: Vow ;
+"archiphoneme i -> 0 when followed by a V"
+%{i%}:0 <=>  _ %>: Vow ;
+
+"archiphoneme i -> i when followed by a C"
+%{i%}:i <=> [ n |t ] _ %>: Cns ;
 
 "i -> 0 in /k/ between V and C"
-%{i%}:0 <=> [a | e | i] %>: k _ %>: Cns ;
+%{i%}:0 <=> [a | e | %{i%}:i] %>: k _ %>: Cns ;
 
-"i -> i in /k/ otherwise"
-%{i%}:i <=> [Cns | .#. | o] %>:? k _ %>: Cns ;
+! "i -> i in /k/ otherwise"
+! %{i%}:i <=> [Cns | .#. | o] %>:? [k|t|n] _ %>: Cns ;
 
 "{y}->x at EOW or if next morpheme starts with a consonant"
 %{y%}:x <=> _ [.#. | %>: Cns] ;

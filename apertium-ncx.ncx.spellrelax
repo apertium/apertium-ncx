@@ -1,9 +1,23 @@
 [
+ [k (->) q u] .o.
+ [k (->) c] .o.
+ [j (->) h] .o.
+ [i y a (->) i a] .o.
+ [s (->) z] .o.
+ [t (->) t t] .o.
+ [s (->) c || _ [i|e] ] .o.
+ [u (->) w] .o.
+ [u (->) h u] .o.
+ [t t (->) t] .o.
+ [ ?* [ ʼ  -> [ %' | ’ | %` | %´ | %‘ | %ʻ ] | ʼ ] ?* ]
+]
+
+![
 	! Unify apostrophe styles
-	[ ?* [ ' (->) [ %` | ʻ | ’ | ‘ | ʼ ] ] ?* ]
+!	[ ?* [ ' (->) [ %` | ʻ | ’ | ‘ | ʼ ] ] ?* ]
 
     ! composition operator, must appear between rules
     ! .o.
 	! Example rule: Accept input without diacritics
 	! [ ?* [ á (->) a ] ?* ]
-]
+!]
