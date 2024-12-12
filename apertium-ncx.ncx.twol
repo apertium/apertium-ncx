@@ -39,16 +39,16 @@ Rules
 ! %{i%}:0 <=> i n %{m%}: _ %>: Cns ;
 
 "m -> n word final and before t"
-%{M%}:n <=> _ .#. ;
+%{M%}:n <=> _ %>: [Vow | Cns - p | .#.] ;
 
-"m -> n before t"
-%{M%}:n <=> _ %>: t ;
+"m -> n everywhere except before p"
+%{M%}:m <=> _ %>: p ;
 
 "archiphoneme i -> 0 when followed by a V"
 %{i%}:0 <=>  _ %>: Vow ;
 
 "archiphoneme i -> i when followed by a C"
-%{i%}:i <=> [ n |t ] _ %>: Cns ;
+%{i%}:i <=> [ n | t ] _ %>: Cns ;
 
 "i -> 0 in /k/ between V and C"
 %{i%}:0 <=> [a | e | %{i%}:i] %>: k _ %>: Cns ;

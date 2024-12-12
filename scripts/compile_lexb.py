@@ -2,7 +2,7 @@ import sys
 import re
 
 define_regex = re.compile("(\[[^\]]+\]) +(@[A-Za-z0-9\.]+@)")
-flag_replace_regex = re.compile("((\[[^\]]+\]) ?)+")
+flag_replace_regex = re.compile("(\[[^\]]+\])") # re.compile("((\[[^\]]+\]) ?)+")
 
 macro_map = {}
 is_defining_macros = False
@@ -29,9 +29,9 @@ for line in sys.stdin.readlines():
         for fd in set(macro_map.values()):
             print(fd)
     else:
-        found_flag = re.search(flag_replace_regex, line)
+        found_flag = re.findall(flag_replace_regex, line)  # re.search(flag_replace_regex, line)
         if found_flag:
-            macros = found_flag.groups()
+            macros = found_flag  # found_flag.groups()
             try:
                 real_flags = "".join([macro_map[macro] for macro in set(macros)])
             except Exception:

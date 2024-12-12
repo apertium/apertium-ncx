@@ -1,6 +1,10 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Define_Flags
 
+[P Subj 3Pl] @P.Subj.3Pl@
+[R Subj 3Pl] @R.Subj.3Pl@
+[D Subj 3Pl] @D.Subj.3Pl@
+
 [P Obj NotPl1] @P.Obj.NotPl1@
 [D Obj NotPl1] @D.Obj.NotPl1@
 
@@ -314,8 +318,8 @@ LEXICON SujetoVerbal
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-%<s_pl3%>:0%>                                    SujetoCont ; ! [P Plural Subj]
-%<s_pl3%>:0%>                                    SujetoCont ; ! [P Optative] [P Plural Subj]
+%<s_pl3%>:0%>                                    SujetoCont ; ! [P Plural Subj] [P Subj 3Pl]
+%<s_pl3%>:0%>                                    SujetoCont ; ! [P Optative] [P Plural Subj] [P Subj 3Pl]
 
 %<s_sg2%>:x%{i%}%>                               SujetoCont ; ! [P Optative]
 %<s_pl2%>:x%{i%}%>                               SujetoCont ; ! [P Optative] [P Plural Subj]
@@ -333,8 +337,10 @@ DV-Dir ;
 %<o_sg2%>:mits%>    TV-Dir ;
 %<o_sg3%>:k%{i%}%>  TV-Dir ;
 %<o_pl1%>:tech%>    TV-Dir ; ! [D Obj NotPl1]
-%<o_pl2%>:amech%>   TV-Dir ; ! según flores-nájera
-!%<o_pl2%>:namech%>  TV-Dir ; ! con sujeto de tercera persona.
+
+%<o_pl2%>:amech%>   TV-Dir ; ! según flores-nájera [D Subj 3Pl]
+%<o_pl2%>:namech%>  TV-Dir ; ! con sujeto de tercera persona.  [R Subj 3Pl]
+
 %<o_pl3%>:ki%{m%}%> TV-Dir ;
 
 LEXICON DV-IO
@@ -664,7 +670,7 @@ palti%<iv%>:palti                       TAM-Clase1 ; ! "mojarse"
 tlejko%<iv%>:tlehko                     TAM-Clase1 ; !" climb, ascend"
 ejko%<iv%>:ejko                         TAM-Clase1 ; !" arrive hitherly"
 tsajtsi%<iv%>:tsajtsi                   TAM-Clase1 ; ! "yell"
-
+choka%<iv%>:choka                       TAM-Clase1 ; ! "cry"
 panoa%<iv%>:pano                        TAM-panoa ; ! "pasar/suceder"
 
 

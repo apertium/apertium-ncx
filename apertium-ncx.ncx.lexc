@@ -4,17 +4,20 @@
 
 
 Multichar_Symbols
-@P.SubjPl.1@
-@R.SubjPl.1@
-@P.Obj.NotPl1@
+@R.Subj.3Pl@
 @P.Opt.1@
-@D.SubjPl@
+@D.Subj.3Pl@
+@D.IsPast@
+@D.Obj.NotPl1@
+@P.IsPast.1@
+@R.IsPast.1@
 @D.Opt@
 @R.Opt@
-@R.IsPast.1@
-@D.IsPast@
-@P.IsPast.1@
-@D.Obj.NotPl1@
+@P.Subj.3Pl@
+@P.SubjPl.1@
+@R.SubjPl.1@
+@D.SubjPl@
+@P.Obj.NotPl1@
 
 %<n%>                                    ! Sustantivo
 %<v%>                                    ! Verbo
@@ -296,22 +299,22 @@ LEXICON SujetoVerbal
 @P.Opt.1@%<s_sg3%>:@P.Opt.1@0%>                                    SujetoCont ; ! 
 
 @P.SubjPl.1@%<s_pl1%>:@P.SubjPl.1@t%{i%}%>                               SujetoCont ; ! 
-@P.SubjPl.1@%<s_pl1%>:@P.SubjPl.1@t%{i%}%>                               SujetoCont ; ! 
+@P.SubjPl.1@@P.Opt.1@%<s_pl1%>:@P.SubjPl.1@@P.Opt.1@t%{i%}%>                               SujetoCont ; !  
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Cuando el sujeto es 2 plural (usteded), y el objeto es 1 plural (a nosotros), hay un tipo de harmonía entre 
 ! los consonantes, y la n del prefijo de sujeto se convierte en t.
 !
-@P.Obj.NotPl1@%<s_pl2%>:@P.Obj.NotPl1@nan%>                                  SujetoCont ; ! 
+@P.SubjPl.1@@P.Obj.NotPl1@%<s_pl2%>:@P.SubjPl.1@@P.Obj.NotPl1@nan%>                                  SujetoCont ; !  
 @P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@tan%>                                  SujetoCont ; ! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0%>                                    SujetoCont ; ! 
-@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0%>                                    SujetoCont ; ! 
+@P.SubjPl.1@@P.Subj.3Pl@%<s_pl3%>:@P.SubjPl.1@@P.Subj.3Pl@0%>                                    SujetoCont ; !  
+@P.SubjPl.1@@P.Subj.3Pl@@P.Opt.1@%<s_pl3%>:@P.SubjPl.1@@P.Subj.3Pl@@P.Opt.1@0%>                                    SujetoCont ; !   
 
 @P.Opt.1@%<s_sg2%>:@P.Opt.1@x%{i%}%>                               SujetoCont ; ! 
-@P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@x%{i%}%>                               SujetoCont ; ! 
+@P.SubjPl.1@@P.Opt.1@%<s_pl2%>:@P.SubjPl.1@@P.Opt.1@x%{i%}%>                               SujetoCont ; !  
 
 
 LEXICON SujetoCont
@@ -326,8 +329,10 @@ DV-Dir ;
 %<o_sg2%>:mits%>    TV-Dir ;
 %<o_sg3%>:k%{i%}%>  TV-Dir ;
 @D.Obj.NotPl1@%<o_pl1%>:@D.Obj.NotPl1@tech%>    TV-Dir ; ! 
-%<o_pl2%>:amech%>   TV-Dir ; ! según flores-nájera
-!%<o_pl2%>:namech%>  TV-Dir ; ! con sujeto de tercera persona.
+
+@D.Subj.3Pl@%<o_pl2%>:@D.Subj.3Pl@amech%>   TV-Dir ; ! según flores-nájera 
+@R.Subj.3Pl@%<o_pl2%>:@R.Subj.3Pl@namech%>  TV-Dir ; ! con sujeto de tercera persona.  
+
 %<o_pl3%>:ki%{m%}%> TV-Dir ;
 
 LEXICON DV-IO
@@ -418,22 +423,22 @@ DV-Raiz ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Agr-Pl-Past
-@D.Opt@:@D.Opt@ # ; ! 
+@R.SubjPl.1@@R.IsPast.1@@D.Opt@:@R.SubjPl.1@@R.IsPast.1@@D.Opt@ # ; !   
 
 LEXICON Agr-Sg-Past
-@D.Opt@:@D.Opt@ # ; ! 
+@R.IsPast.1@@D.SubjPl@@D.Opt@:@R.IsPast.1@@D.SubjPl@@D.Opt@ # ; !   
 
 LEXICON Agr-Pl-Nonpast
-@D.Opt@:@D.Opt@ # ; ! 
+@R.SubjPl.1@@D.IsPast@@D.Opt@:@R.SubjPl.1@@D.IsPast@@D.Opt@ # ; !   
 
 LEXICON Agr-Sg-Nonpast
-@D.Opt@:@D.Opt@ # ; ! 
+@D.IsPast@@D.SubjPl@@D.Opt@:@D.IsPast@@D.SubjPl@@D.Opt@ # ; !   
 
 LEXICON Agr-Sg-Opt
-@R.Opt@:@R.Opt@ # ; ! 
+@R.Opt@@D.SubjPl@:@R.Opt@@D.SubjPl@ # ; !  
 
 LEXICON Agr-Pl-Opt
-@R.Opt@:@R.Opt@ # ; ! 
+@R.Opt@@R.SubjPl.1@:@R.Opt@@R.SubjPl.1@ # ; !  
 
 LEXICON Purposive ! en spanish?
 %<aux%>:%>ti Agr-Sg-Nonpast ;
@@ -657,7 +662,7 @@ palti%<iv%>:palti                       TAM-Clase1 ; ! "mojarse"
 tlejko%<iv%>:tlehko                     TAM-Clase1 ; !" climb, ascend"
 ejko%<iv%>:ejko                         TAM-Clase1 ; !" arrive hitherly"
 tsajtsi%<iv%>:tsajtsi                   TAM-Clase1 ; ! "yell"
-
+choka%<iv%>:choka                       TAM-Clase1 ; ! "cry"
 panoa%<iv%>:pano                        TAM-panoa ; ! "pasar/suceder"
 
 
