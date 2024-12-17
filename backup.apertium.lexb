@@ -153,7 +153,7 @@ Multichar_Symbols
 %{h%}                                    ! h / u
 %{u%}                                    ! u / h
 %{H%}
-%{n%}                                    ! m / 0
+%{m%}                                    ! m / 0
 %{M%}                                    ! m / n
 %{q%}
 %{c%}
@@ -162,7 +162,6 @@ Multichar_Symbols
 %{e%}
 %{%@%}                                   ! para terminaciones -o y -a en sustantivos y/o adjetivos
 %{y%}					 ! y/x (ej pretérito de piya)
-%{u%}
 %>                                       ! Frontera de morfema
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -174,7 +173,7 @@ Aumento ;
 Determinantes ;
 Conj ; 
 
-Numerales ; 
+!Numerales ; 
 !Propios ;
 Adverbios ;
 !Preposiciones ;
@@ -184,74 +183,39 @@ Interjecciones ;
 ! Digits ;
 
 
-LEXICON Numerales
-ce:ce         Numerales-Cont ;
-ome:ome       Numerales-Cont ;
-yeyi:yeyi     Numerales-Cont ;
-naui:naui     Numerales-Cont ;
-macuil:macuil Numerales-Cont ;
-
-
-LEXICON Numerales-Cont
-%<num%>:0 # ;
-
-
 LEXICON Determinantes
 in%<det%>:in # ;
 
 LEXICON Adverbios
-ijkuak:ijkuak                Adverbios-Cont ; ! "cuando"
-kenman:kenman                Adverbios-Cont ;
-mostla:mostla                Adverbios-Cont ;
-kualkan:kualkan              Adverbios-Cont ;
-yeuiptla:yeuiptla            Adverbios-Cont ;
-axan:axan                    Adverbios-Cont ; 
-
-kanin%<itg%>:kanin           Adverbios-Cont ; ! "dónde"
-kanic%<itg%>:kanic           Adverbios-Cont ; ! "por dónde"
-kan:kan                      Adverbios-Cont ; ! "donde"
-
-san:san                      Adverbios-Cont ; ! "sólo, nada mas"
-entontonces:tons             Adverbios-Cont ; ! "entonces"
-entonces:tos                 Adverbios-Cont ; ! "entonces"
-entonces:entonces            Adverbios-Cont ; ! "entonces"
-amo:amo                      Adverbios-Cont ; ! "no"
-ompa:ompa                    Adverbios-Cont ; ! "there"
-nican:nican                  Adverbios-Cont ; ! "here"
-niman:niman                  Adverbios-Cont ; ! "pronto"
-
+ijkuak:ijkuak         Adverbios-Cont ; ! "cuando"
+kenman:kenman         Adverbios-Cont ;
+mostla:mostla         Adverbios-Cont ;
+kualkan:kualkan       Adverbios-Cont ;
+yeuiptla:yeuiptla      Adverbios-Cont ;
+axan:axan             Adverbios-Cont ; 
+kanin%<itg%>:kanin    Adverbios-Cont ; ! "dónde"   
 
 LEXICON Adverbios-Cont
 %<adv%>:0 # ;
 
 LEXICON Interjecciones
-kemaj:kemah Interjecciones-Cont ; ! "yes"
-amo:amo     Interjecciones-Cont ; ! "no"
-
-LEXICON Interjecciones-Cont
-%<intj%>:0 # ;
+kemaj%<intj%>:kemah # ; !
 
 LEXICON Conj
-ihcuac:ihcuac       SubConj-Cont ;
-tla:tla             SubConj-Cont ;
-tlamo:tlamo         SubConj-Cont ; ! "si no"
-hasta%<barb%>:hasta SubConj-Cont ;
-nic:nic             SubConj-Cont ;
+ihcuac:ihcuac       Conj-Cont ;
+tla:tla             Conj-Cont ;
+tlamo:tlamo         Conj-Cont ; ! "si no"
+hasta%<barb%>:hasta Conj-Cont ;
+nic:nic             Conj-Cont ;
 
-uan:uan             CooConj-Cont ; 
-
-LEXICON SubConj-Cont
+LEXICON Conj-Cont
 %<cnjsub%>:0 # ;
 
-LEXICON CooConj-Cont
-%<cnjcoo%>:0 # ;
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 ! Nominales
 !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Nominal
 
@@ -269,13 +233,10 @@ LEXICON PronombrePersonal
 
 ! Singular
 nejuatl%<prn%>%<pro%>%<p1%>%<sg%>:ne       # ;
-nejuatl%<prn%>%<pro%>%<p1%>%<sg%>:nej       # ;
 nejuatl%<prn%>%<pers%>%<p1%>%<sg%>:nejuatl # ;
 tejuatl%<prn%>%<pro%>%<p2%>%<sg%>:te       # ;
-tejuatl%<prn%>%<pro%>%<p2%>%<sg%>:tej       # ;
 tejuatl%<prn%>%<pers%>%<p2%>%<sg%>:tejuatl # ;
 yejuatl%<prn%>%<pro%>%<p3%>%<sg%>:ye       # ;
-yejuatl%<prn%>%<pro%>%<p3%>%<sg%>:yej       # ;
 yejuatl%<prn%>%<pers%>%<p3%>%<sg%>:yejuatl # ;
 
 ! Plural
@@ -314,9 +275,7 @@ Sustantivo ;
 %<px3sg%>:i%> Sustantivo ;
 %<px1pl%>:to%> Sustantivo ;
 %<px2pl%>:namo%> Sustantivo ;
-! %<px3pl%>:in%{m%}%{i%}%> Sustantivo ; 
-%<px3pl%>:imin%> Sustantivo ;
-%<px3pl%>:i%{n%}%> Sustantivo ;
+%<px3pl%>:in%{m%}%{i%}%> Sustantivo ;
 
 %<px_nn%>:te Sustantivo ; ! Todo: figure out correct tag
 
@@ -332,102 +291,75 @@ LEXICON TratoFamiliar
 
 
 LEXICON TL
-%<n%>%<abs%>%<sg%>:%>tl       # ;
-%<n%>%<sg%>:0                 # ; ! poseído TODO: flag diacritics ftw
-%<n%>:0                       TratoFamiliar ;
-%<n%>:0                       PluralNominal ;
+%<abs%>%<sg%>:%>tl       # ;
+%<sg%>:0                 # ; ! poseído TODO: flag diacritics ftw
+TratoFamiliar ;
+PluralNominal ;
 
 LEXICON TLI
-%<n%>%<abs%>%<sg%>:%>tli      # ;
-%<n%>%<sg%>:0                 # ;
-%<n%>:0                       TratoFamiliar ;
-%<n%>:0                       PluralNominal ;
+%<abs%>%<sg%>:%>tli # ;
+%<sg%>:0 # ;
+TratoFamiliar ;
+PluralNominal ;
 
 LEXICON LI
-%<n%>%<abs%>%<sg%>:%>i        # ;
-%<n%>%<sg%>:0                 # ;
-%<n%>:0                       TratoFamiliar ;
-%<n%>:0                       PluralNominal ;
+%<abs%>%<sg%>:%>i # ;
+%<sg%>:0 # ;
+TratoFamiliar ;
+PluralNominal ;
 
 LEXICON NA
-%<n%>%<sg%>:0                 # ;
-%<n%>:0                       TratoFamiliar ;
-%<n%>:0                       PluralNominal ;
-
-LEXICON Adjetivo
-kualli:kualli    Adjetivo-Cont ;  ! "good"
-
-LEXICON Adjetivo-Cont
-%<adj%>:0 # ; 
-
-
-LEXICON SusRel
-ca:ca          SusRel-Cont ;
-uan:uan        SusRel-Cont ;
-nauac:nauac    SusRel-Cont ;
-pan:pan        SusRel-Cont ;
-tenco:tenco    SusRel-Cont ;
-
-
-LEXICON SusRel-Cont
-%<n%>%<rel%>:0 TratoFamiliar ;
-%<n%>%<rel%>:0 #;
+%<sg%>:0 # ;
+TratoFamiliar ;
+PluralNominal ;
 
 LEXICON Sustantivo
-Adjetivo ;
-SusRel ; ! Relational Nouns
+axka%<n%>:axka                       NA; ! "partícula posesiva"
+tlakual%<n%>:tlakual                 NA; ! "comida"
+miston%<n%>:miston                   NA; ! "gato"
+tlaol%<n%>:tlaol                     NA; ! "maíz"
+tlaol%<n%>:tlaol                     NA; ! "maíz"
+tlamachtiloyan%<n%>:tlamachtiloyan   NA; ! "maíz"
 
-axka:axka                       NA; ! "partícula posesiva"
-tlakual:tlakual                 NA; ! "comida"
-miston:miston                   NA; ! "gato"
-tlaol:tlaol                     NA; ! "maíz"
-yoal:yoal                       NA; ! "noche"
-tlamachtiloyan:tlamachtiloyan   NA; ! "maíz"
-tonal:tonal                     NA; ! "día"
 
-tlaxkali:tlaxkal    LI ; ! "tortilla"
-pilli:pil           LI ; ! "child"
-kalli:kal           LI ; ! "house"
+tlaxkali%<n%>:tlaxkal    LI ; ! "tortilla"
+pilli%<n%>:pil           LI ; ! "child"
 
-atl:a                       TL ; ! "hormiga"
-askatl:aska                 TL ; ! "hormiga"
-altepetl:altepe             TL ; ! "pueblo"
-koyotl:koyo                 TL ; ! "coyote"
-koatl:koa                   TL ; ! "víbora"
-tlakatl:tlaka               TL ; ! "hombre"
-soatl:soa                   TL ; ! "mujer"
-pitsotl:pitso               TL ; ! "puerco"
-kuauitl:kuaui               TL ; ! "árbol, madera"
-konetl:kone                 TL ; ! "baby/child"
-kueitl:kuei                 TL ; ! "skirt"
-kuikatl:kuika               TL ; ! "song"
-uejxolotl:uejxolo           TL ; ! "turkey"
-ichkatl:ichka               TL ; ! "sheep"
-iluitl:ilui                 TL ; ! "party"
-masatl:masa                 TL ; ! "venado"
-mometl:mome                 TL ; ! ""
-tlatsakuilotl:tlatsakuilo   TL ; ! ""
-xaxokotl:xaxoko             TL ; ! "guayaba"
-xonakatl:xonakatl           TL ; ! "onion"
-yetl:ye                     TL ; ! ""
-yolkatl:yolka               TL ; ! "horse/animal" TODO check in def in this variant
-chikiuitl:chikiui           TL ; ! "basket"
-komitl:komi                 TL ; ! "olla"
-metlatl:metla               TL ; ! "metate"
-petlatl:petla               TL ; ! "petate"
-tetl:te                     TL ; ! "rock"
-xochitl:xochi               TL ; ! "floer"
-tepetl:tepe                 TL ; ! "hill/mountain"
-piotl:pio                   TL ; ! "chicken"
+atl%<n%>:a                       TL ; ! "hormiga"
+askatl%<n%>:aska                 TL ; ! "hormiga"
+altepetl%<n%>:altepe	         TL ; ! "pueblo"
+tlakatl%<n%>:tlaka               TL ; ! "hombre"
+soatl%<n%>:soa                   TL ; ! "mujer"
+pitsotl%<n%>:pitso	             TL ; ! "puerco"
+kuauitl%<n%>:kuaui	             TL ; ! "árbol, madera"
+konetl%<n%>:kone                 TL; ! "baby/child"
+kueitl%<n%>:kuei                 TL; ! "skirt"
+kuikatl%<n%>:kuika               TL ; ! "song"
+uejxolotl%<n%>:uejxolo           TL ; ! "turkey"
+ichkatl%<n%>:ichka               TL ; ! "sheep"
+iluitl%<n%>:ilui                 TL ; ! "party"
+mometl%<n%>:mome                 TL ; ! ""
+tlatsakuilotl%<n%>:tlatsakuilo   TL ; ! ""
+xaxokotl%<n%>:xaxoko             TL ; ! "guayaba"
+xonakatl%<n%>:xonakatl           TL ; ! "onion"
+yetl%<n%>:ye                     TL ; ! ""
+yolkatl%<n%>:yolka               TL ; ! "horse/animal" TODO check in def in this variant
+chikiuitl%<n%>:chikiui           TL ; ! "basket"
+komitl%<n%>:komi                 TL ; ! ""
+metlatl%<n%>:metla               TL ; ! "metate"
+petlatl%<n%>:petla               TL ; ! "petate"
+tetl%<n%>:te                     TL ; ! "rock"
+xochitl%<n%>:xochi               TL ; ! "floer"
+tepetl%<n%>:tepe                 TL ; ! "hill/mountain"
+        
 
-textli:tex          TLI ; ! "masa"
-tochtli:toch        TLI ; ! "conejo"
-chantli:chan        TLI ; ! "puerco"
-tepostli:tepos      TLI ; ! "metal, car, machine"
-pajtli:paj          TLI ; ! "medicine"
-nektli:nek          TLI ; ! "pulque?"
-apastli:apas        TLI ; ! "hunger?"
-
+textli%<n%>:tex	         TLI ; ! "masa"
+tochtli%<n%>:toch	     TLI ; ! "conejo"
+chantli%<n%>:chan	     TLI ; ! "puerco"
+tepostli%<n%>:tepos      TLI ; ! "metal, car, machine"
+pajtli%<n%>:paj          TLI ; ! "medicine"
+nektli%<n%>:nek          TLI ; ! "pulque?"
+apastli%<n%>:apas        TLI ; ! "hunger?"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
@@ -437,9 +369,8 @@ apastli:apas        TLI ; ! "hunger?"
 
 LEXICON Aumento
 
-0:o%>           SujetoVerbal ; ! [P Past]
-ya%<adv%>+:yo%> SujetoVerbal ; ! [P Past]
-                SujetoVerbal ;
+o%> SujetoVerbal ; ! [P Past]
+SujetoVerbal ;
 
 
 LEXICON SujetoVerbal
@@ -474,40 +405,19 @@ LEXICON SujetoCont
 IV-Dir ;
 Objeto ;
 
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! Intransitive morphemes (lexicon at the end)
-!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON IV-Dir
-%<and%>:on IV-Adv ;
-%<ven%>:ual IV-Adv ;
-IV-Adv ;
-
-LEXICON IV-Adv
-%<yek%>:yek IV-Raiz ;
-%<sen%>:sen IV-Raiz ;
-%<pan%>:pan IV-Raiz ;
-! ...etc.
-IV-Raiz ;
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Objects for transitive and titransitive verbs
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON Objeto
+DV-IO ;
+TV-Dir ;
+DV-Dir ;
 %<o_sg1%>:nech%>    TV-Dir ;
 %<o_sg2%>:mits%>    TV-Dir ;
 %<o_sg3%>:k%{i%}%>  TV-Dir ;
 %<o_pl1%>:tech%>    TV-Dir ; ! [D Obj NotPl1]
+
 %<o_pl2%>:amech%>   TV-Dir ; ! según flores-nájera [D Subj 3Pl]
 %<o_pl2%>:namech%>  TV-Dir ; ! con sujeto de tercera persona.  [R Subj 3Pl]
+
 %<o_pl3%>:ki%{m%}%> TV-Dir ;
-
-TV-Dir ;
-
-DV-IO ;
-DV-Dir ;
 
 LEXICON DV-IO
 %<i_sg1%>:nech%>    DV-O ;
@@ -518,28 +428,62 @@ LEXICON DV-IO
 %<i_pl2%>:namech%>  DV-O ; ! con sujeto de tercera persona.
 %<i_pl3%>:ki%{m%}%> DV-O ;
 
+LEXICON IV-Dir
+%<and%>:on IV-Adv ;
+%<ven%>:ual IV-Adv ;
+IV-Adv ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Transitive (1-object complement) morphemes
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON TV-Dir
 %<and%>:on TV-Refl ;
 %<ven%>:ual TV-Refl ;
 TV-Refl ;
 
+LEXICON DV-O
+! for direct obj "im-" ... is this a thing in ncx?
+DV-Dir ;
+
+
+LEXICON DV-Dir
+%<and%>:on DV-Refl ;
+%<ven%>:ual DV-Refl ;
+DV-Refl ;
+
 LEXICON TV-Refl
 %<refl%>:mo%>  TV-Adv ;
 TV-Adv ;
+
+
+LEXICON DV-Refl
+%<refl%>:mo%>  DV-Adv ;
+DV-Adv ;
 
 !TODO: resolver dudas sobre la posicón y función de te- y tla- en ncx
 LEXICON TV-Te
 %<o_aa3%>:te%> TV-Raiz ;
 TV-Raiz ;
 
+LEXICON DV-Te
+%<o_aa3%>:te%> DV-Raiz ;
+
+LEXICON TV-Tla
+%<o_nn3%>:tla%> TV-Raiz ;
+
+LEXICON DV-Tla
+%<o_nn3%>:tla%> DV-Raiz ;
+
+LEXICON Te-Tla
+%<i_aa3%>%<o_nn3%>:te%>tla%> DV-Raiz ;
+
+
+LEXICON IV-Adv
+%<yek%>:yek IV-Raiz ;
+%<sen%>:sen IV-Raiz ;
+! ...etc.
+IV-Raiz ;
+
 LEXICON TV-Adv
 %<yek%>:yek TV-Adv-Cont ;
 %<sen%>:sen TV-Adv-Cont ;
-%<pan%>:sen TV-Adv-Cont ;
 ! ...etc.
 TV-Adv-Cont ;
 
@@ -548,40 +492,9 @@ TV-Tla ;
 TV-Te ;
 TV-Raiz ;
 
-LEXICON TV-Tla
-%<o_nn3%>:tla%> TV-Raiz ;
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Ditransitive (2 objects) morphemes.
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON DV-O
-! for direct obj "im-" ... is this a thing in ncx?
-DV-Dir ;
-
-LEXICON DV-Dir
-%<and%>:on DV-Refl ;
-%<ven%>:ual DV-Refl ;
-DV-Refl ;
-
-LEXICON DV-Refl
-%<refl%>:mo%>  DV-Adv ;
-DV-Adv ;
-
-LEXICON DV-Te
-%<o_aa3%>:te%> DV-Raiz ;
-
-LEXICON DV-Tla
-%<o_nn3%>:tla%> DV-Raiz ;
-
-LEXICON Te-Tla
-%<i_aa3%>%<o_nn3%>:te%>tla%> DV-Raiz ;
-
 LEXICON DV-Adv
 %<yek%>:yek DV-Adv-Cont ;
 %<sen%>:sen DV-Adv-Cont ;
-%<pan%>:sen DV-Adv-Cont ;
 ! ...etc.
 DV-Adv-Cont ;
 
@@ -591,8 +504,6 @@ DV-Te   ;
 DV-Tla  ;
 DV-Raiz ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! TAM stuff for Verbs
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Agr-Pl-Past
@@ -613,116 +524,226 @@ LEXICON Agr-Sg-Opt
 LEXICON Agr-Pl-Opt
 # ; ! [R Plural Subj] [R Optative]
 
-LEXICON PresentTense
-%<pres%>:0     Agr-Sg-Nonpast ;
-%<pres%>:%>j   Agr-Pl-Nonpast ;
-%<pres%>:0     Agr-Pl-Nonpast ; ! [R Num Unambig]
+LEXICON Purposive ! en spanish?
+%<aux%>:%>ti Agr-Sg-Nonpast ;
+%<aux%>:%>to Agr-Sg-Past ;
+%<aux%>%<pret%>:%>ki Agr-Sg-Nonpast ;
+%<aux%>%<pret%>:%>ko Agr-Sg-Past ;
+%<aux%>:%>ti%>j Agr-Pl-Nonpast ;
+%<aux%>:%>ti%>ue Agr-Pl-Nonpast ;
+%<aux%>:%>to%>j Agr-Pl-Past ;
+%<aux%>%<pret%>:%>ki%>ue Agr-Pl-Nonpast ;
+%<aux%>%<pret%>:%>ki%>j Agr-Pl-Nonpast ;
+%<aux%>%<pret%>:%>ko%>j Agr-Pl-Past ;
 
-LEXICON PreteriteK
-%<pret%>:%>k   Agr-Sg-Past ;
+LEXICON TAM-Clase1
+%<pres%>:0 Agr-Sg-Nonpast ;
+%<pres%>:%>j Agr-Pl-Nonpast ;
+%<pres%>:0 Agr-Pl-Nonpast ; ! [R Num Unambig]
+%<pret%>:%>k Agr-Sg-Past ;
 %<pret%>:%>kej Agr-Pl-Past ;
-
-LEXICON PreteriteJ
-%<pret%>:      Agr-Sg-Past ; ! Dir/LR
-%<pret%>:%>j   Agr-Sg-Past ;
-%<pret%>:%>kej Agr-Pl-Past ;
-
-LEXICON PreteriteNull
-%<pret%>:      Agr-Sg-Past ;
-%<pret%>:%>kej Agr-Pl-Past ;
-
-LEXICON Imperfect
 %<impf%>:%>ya Agr-Sg-Past ;
 %<impf%>:%>ya%>j Agr-Pl-Past ;
-
-LEXICON Future
 %<fut%>:%>s Agr-Sg-Nonpast ;
+:%>s Neki-Aux ;
+
+%<cond%>:%>skia Agr-Sg-Past ;
+%<cond%>:%>skia%>j Agr-Pl-Past ;
+
 %<fut%>:%>s%>kej Agr-Pl-Nonpast ;
-%<fut%>:%>s Neki-Aux ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
 
-LEXICON Durative
-%<dur%>%<pres%>:%>to%>k Agr-Sg-Nonpast ;
-%<dur%>%<pres%>:%>to%>k%>ej Agr-Pl-Nonpast ;
-%<dur%>:%>to Imperfect ;
-%<dur%>:%>to Future ;
-
-LEXICON Optative
 %<opt%>:0 Agr-Sg-Opt ;
 %<opt%>:%>kan Agr-Pl-Opt ;
 
-LEXICON Conditional
-%<cond%>:%>skia    Agr-Sg-Past ;
+SufijoAuxiliar ;
+
+LEXICON TAM-panoa
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ;
+
+%<pres%>:a Agr-Pl-Nonpast ; ! [R Num Unambig]
+
+%<pret%>:%>k Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:%>aya Agr-Sg-Past ;
+%<impf%>:%>aya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
+:%>s Neki-Aux ;
+
+%<cond%>:%>skia Agr-Sg-Past ;
 %<cond%>:%>skia%>j Agr-Pl-Past ;
 
-LEXICON TAM-Clase1
-        PresentTense ;
-        PreteriteK ;
-        Imperfect ;
-        Future ;
-        Conditional ;
-        Durative ;
-        Optative ;
-        SufijoAuxiliar ;
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
 
-LEXICON TAM-Panoa
-0:a       PresentTense ;
-          PreteriteK ;
-0:a       Imperfect ;
-          Future ;
-          Conditional ;
-          Durative ;
-          Optative ;
-          SufijoAuxiliar ;
+%<opt%>:0 Agr-Sg-Opt ;
+%<opt%>:%>kan Agr-Pl-Opt ;
 
-LEXICON TAM-Ita
-0:ta      PresentTense ;
-0:ta      PreteriteK ;
-0:ta      Imperfect ;
-0:ta      Future ;
-          Conditional ;
-0:s       Durative ;
-0:a       Optative ;
-0:a       SufijoAuxiliar ;
+SufijoAuxiliar ;
+
+
+LEXICON TAM-Clase1-ita
+%<pres%>:ta Agr-Sg-Nonpast ;
+%<pres%>:ta%>j Agr-Pl-Nonpast ;
+
+%<pres%>:ta Agr-Pl-Nonpast ; ! [R Num Unambig]
+
+%<pret%>:ta%>k Agr-Sg-Past ;
+%<pret%>:ta%>kej Agr-Pl-Past ;
+%<impf%>:ta%>ya Agr-Sg-Past ;
+%<impf%>:ta%>ya%>j Agr-Pl-Past ;
+%<fut%>:ta%>s Agr-Sg-Nonpast ;
+
+%<fut%>:ta%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:s%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:s%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:s%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:s%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:s%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:s%>to%>s%>kej Agr-Pl-Nonpast ;
+ta%>s Neki-Aux ;
+%>s SufijoAuxiliar ;
+
+%<cond%>:%>skia Agr-Sg-Past ;
+%<cond%>:%>skia%>j Agr-Pl-Past ;
+
+%<opt%>:a%> Agr-Sg-Opt ;
+%<opt%>:a%>kan Agr-Pl-Opt ;
+
 
 LEXICON TAM-Clase2-a
-0:a       PresentTense ;
-          PreteriteNull ;
-0:a       Imperfect ;
-0:a       Future ;
-0:a       Conditional ;
-          Durative ;
-0:a       Optative ;
-          SufijoAuxiliar ;
+
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ;
+
+%<pres%>:a Agr-Pl-Nonpast ; ! [R Num Unambig]
+
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:a%>s Agr-Sg-Nonpast ;
+a%>s Neki-Aux ;
+
+%<cond%>:a%>skia Agr-Sg-Past ;
+%<cond%>:a%>skia%>j Agr-Pl-Past ;
+
+%<fut%>:a%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:a%> Agr-Sg-Opt ;
+%<opt%>:a%>kan Agr-Pl-Opt ;
+
+SufijoAuxiliar ;
 
 LEXICON TAM-Clase2-i
-0:i       PresentTense ;
-          PreteriteNull ;
-0:i       Imperfect ;
-0:i       Future ;
-0:i       Conditional ;
-          Durative ;
-0:i       Optative ;
-          SufijoAuxiliar ;
+%<pres%>:i Agr-Sg-Nonpast ;
+%<pres%>:i%>j Agr-Pl-Nonpast ;
+
+%<pres%>:i Agr-Pl-Nonpast ; ! [R Num Unambig]
+
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:i%>ya Agr-Sg-Past ;
+%<impf%>:i%>ya%>j Agr-Pl-Past ;
+%<fut%>:i%>s Agr-Sg-Nonpast ;
+i%>s Neki-Aux ;
+
+%<cond%>:i%>skia Agr-Sg-Past ;
+%<cond%>:i%>skia%>j Agr-Pl-Past ;
+
+%<fut%>:i%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:i%> Agr-Sg-Opt ;
+%<opt%>:i%>kan Agr-Pl-Opt ;
+
+SufijoAuxiliar ;
+
 
 LEXICON TAM-Clase3
-0:a       PresentTense ;
-          PreteriteJ ;
-0:a       Imperfect ;
-          Future ;
-          Conditional ;
-0:j       Durative ;
-          Optative ;
-          SufijoAuxiliar ;
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ;
+
+%<pres%>:a Agr-Pl-Nonpast ; ! [R Num Unambig]
+
+
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:j Agr-Sg-Past ;
+%<pret%>:j%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
+:%>s Neki-Aux ;
+
+%<cond%>:%>skia Agr-Sg-Past ;
+%<cond%>:%>skia%>j Agr-Pl-Past ;
+
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:j%>to%>k Agr-Sg-Nonpast;
+%<pres%>%<dur%>:j%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:j%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:j%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:j%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:j%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:%> Agr-Sg-Opt ;
+%<opt%>:%>kan Agr-Pl-Opt ;
+
+
+SufijoAuxiliar ;
+
 
 LEXICON TAM-Clase4
-          PresentTense ;
-          PreteriteJ ;
-          Imperfect ;
-          Future ;
-          Conditional ;
-0:j       Durative ;
-          Optative ;
-          SufijoAuxiliar ;
+%<pres%>:0 Agr-Sg-Nonpast ;
+%<pres%>:%>j Agr-Pl-Nonpast ;
+
+%<pres%>:0 Agr-Pl-Nonpast ; ! [R Num Unambig]
+
+
+%<pret%>:%>j Agr-Sg-Past ;
+%<pret%>:%>j%>kej Agr-Pl-Past ;
+%<impf%>:%>ya Agr-Sg-Past ;
+%<impf%>:%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
+
+%<cond%>:%>skia Agr-Sg-Past ;
+%<cond%>:%>skia%>j Agr-Pl-Past ;
+
+%>s Neki-Aux ;
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:j%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:j%>to%>kej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:j%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:j%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:j%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:j%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:%> Agr-Sg-Opt ;
+%<opt%>:%>kan Agr-Pl-Opt ;
+
+SufijoAuxiliar ;
 
 LEXICON SufijoAuxiliar
 Tinemi-Aux ;
@@ -731,52 +752,47 @@ Tiuits-Aux ;
 Purposive ;
 
 LEXICON Tinemi-Aux
-%+%<aux%>nemi:%>ti%>nemi        PresentTense ;
-%+%<aux%>nemi:%>ti%>nemi        Imperfect ;
-%+%<aux%>nemi:%>ti%>nemi        Future ;
-%+%<aux%>nemi:%>ti%>nen         Durative ;
+%<aux%>%<pres%>%+nemi:%>ti%>nemi Agr-Sg-Nonpast ;
+%<aux%>%<impf%>:%>ti%>nemi%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>:%>ti%>nemi%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>:%>ti%>nemi%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>:%>ti%>nemi%>s%>kej Agr-Pl-Nonpast ;
+%<aux%>%<pres%>%<dur%>:%>ti%>nen%>to%>k Agr-Sg-Nonpast ;
+%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s%>kej Agr-Pl-Nonpast ;
 
-LEXICON Tijtia-Aux ! "hacer algo poco a poquito"
-%+%<aux%>ijtia:%>ti%>jtia        PresentTense ;
-%+%<aux%>ijtia:%>ti%>jtia        Imperfect ;
-%+%<aux%>ijtia:%>ti%>jti         Future ;
-%+%<aux%>ijtia:%>ti%>jti         Durative ;
+LEXICON Tijtia-Aux
+%<aux%>%<pres%>:%>ti%>jtia Agr-Sg-Nonpast ;
+%<aux%>%<pres%>:%>ti%>jtia%>j Agr-Pl-Nonpast ;
+%<aux%>%<impf%>:%>ti%>jtia%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>:%>ti%>jtia%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>:%>ti%>jti%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>:%>ti%>jti%>s%>kej Agr-Pl-Nonpast ;
+%<aux%>%<pres%>%<dur%>:%>ti%>jti%>to%>k Agr-Sg-Nonpast ;
+%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s%>kej Agr-Pl-Nonpast ;
 
 LEXICON Tiuits-Aux
-%+uits%<aux%>:%>ti%>uits      Agr-Sg-Nonpast ;
-%+uits%<aux%>:%>ti%>uits%>ej  Agr-Pl-Nonpast ;
-%+uits%<aux%>:%>ti%>uits%>e   Agr-Pl-Nonpast ; ! Dir/LR
+%<aux%>%<pres%>:%>ti%>uits Agr-Sg-Nonpast ;
+! TODO: figure out the rest of these (TAM)
 
 LEXICON Neki-Aux
-%+neki%<aux%>:%>neki  PresentTense ;
+%<aux%>+neki:%>neki Agr-Sg-Nonpast ;
+%<aux%>+neki:%>neki%>j Agr-Pl-Nonpast ;
 
-LEXICON Purposive
-%<pres%>%<and%>:%>ti Agr-Sg-Nonpast ;
-%<pres%>%<and%>:%>ti%>j Agr-Pl-Nonpast ; ! Dir/LR
-%<pres%>%<and%>:%>ti%>ue Agr-Pl-Nonpast ;
-%<pret%>%<and%>:%>to Agr-Sg-Past ;
-%<pret%>%<and%>:%>to%>j Agr-Pl-Past ;
-
-%<pres%>%<ven%>:%>ki     Agr-Sg-Nonpast ;
-%<pres%>%<ven%>:%>ki%>j  Agr-Sg-Nonpast ; ! Dir/LR
-%<pres%>%<ven%>:%>ki%>ue Agr-Sg-Nonpast ;
-%<pret%>%<ven%>:%>ko     Agr-Sg-Past ;
-%<pret%>%<ven%>:%>ko%>j  Agr-Sg-Past ;
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Verb lexica
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON IV-Raiz
 
-ajsi%<iv%>:ajsi                         TAM-Clase1 ; ! "llegar thitherly"
 palti%<iv%>:palti                       TAM-Clase1 ; ! "mojarse"
 tlejko%<iv%>:tlehko                     TAM-Clase1 ; !" climb, ascend"
 ejko%<iv%>:ejko                         TAM-Clase1 ; !" arrive hitherly"
 tsajtsi%<iv%>:tsajtsi                   TAM-Clase1 ; ! "yell"
 choka%<iv%>:choka                       TAM-Clase1 ; ! "cry"
-panoa%<iv%>:pano                        TAM-Panoa  ; ! "pasar/suceder"
+panoa%<iv%>:pano                        TAM-panoa  ; ! "pasar/suceder"
 
 
 nejnemi%<iv%>:nejne%{M%}                TAM-Clase2-i ; ! "walk"
@@ -791,8 +807,7 @@ nemi%<iv%>:ne%{m%}                      TAM-Clase2-i ; ! "go around (andar)"
 tsekuini%<iv%>:tsekuin                  TAM-Clase2-i ; ! "jump"
 poliui%<iv%>:poliu                      TAM-Clase2-i;  ! "get lost"
 
-pinaua%<iv%>:pina%{u%}                  TAM-Clase2-a ; ! "be ashamed"
-peua%<iv%>:pe%{u%}                      TAM-Clase2-a ; ! "start
+pinaua%<iv%>:pinau                      TAM-Clase2-a ; ! "be ashamed"
 kisa%<iv%>:kis                          TAM-Clase2-a ; ! "emerge, go out"
 
 kualtia%<iv%>:kualti	                TAM-Clase3 ; ! "servir/estar bueno/no pudrido"
@@ -801,26 +816,34 @@ choloa%<iv%>:cholo                      TAM-Clase3 ; ! "flee"
 chantia%<iv%>:chanti	                TAM-Clase3 ; ! "vivir"
 
 
-ueli%<iv%>:ueli		       TAM-Clase4 ; ! TODO is this even correct
+ueli%<iv%>:ueli		   TAM-Clase4 ; ! TODO is this even correct
 
 
 LEXICON TV-Raiz
 
-namaka%<tv%>:namaka	       TAM-Clase1 ; ! "vender s.t."
-tlaksa%<tv%>:tlaksa        TAM-Clase1 ; ! "step on (pisar)"
-tlasojtla%<tv%>:tlasojtla  TAM-Clase1 ; ! "amar"
-ajua%<tv%>:ajua            TAM-Clase1 ; ! "scold"
-uika%<tv%>:uika            TAM-Clase1 ; ! "llevar"
-ualika%<tv%>:ualika        TAM-Clase1 ; ! "traer"
+panoa%<tv%>:pano            TAM-panoa ; ! "pasar (a alguien/algo)"
 
-panoa%<tv%>:pano           TAM-Panoa ; ! "pasar (a alguien/algo)"
-ita%<tv%>:it		       TAM-Ita ; !"ver"
+kua%<tv%>:kua		       TAM-Clase4 ; ! "consumir/comer"
 
-chiua%<tv%>:chi%{u%}       TAM-Clase2-a ; ! "hacer"
+paleuia%<tv%>:paleui	   TAM-Clase3 ; ! "ayudar"
+kualania%<tv%>:kualani     TAM-Clase3 ; ! "anger"
+majtia%<tv%>:majti         TAM-Clase3 ; ! "frighten"
+miktia%<tv%>:mikti         TAM-Clase3 ; ! "kill"
+pakiltia%<tv%>:pakilti     TAM-Clase3 ; ! "make happy, cheer up"
+kixtia%<tv%>:kixti         TAM-Clase3 ; ! "take out, remove"
+paktia%<tv%>:pakti	       TAM-Clase3 ; ! "hacer feliz / gustar"
+tlakualtia%<tv%>:tlakualti TAM-Clase3 ; ! "feed"
+ijtoa%<tv%>:ijto           TAM-Clase3 ; ! decir"
+tlalia%<tv%>:tlali	       TAM-Clase3 ; ! "poner 
+machtia%<tv%>:machti	   TAM-Clase3 ; ! "enseñar/hacer saber"
+ijtotia%<tv%>:ijtoti       TAM-Clase3 ; ! "dance"
+nankilia%<n%>:nankili      TAM-Clase3 ; ! "contestar"
+
+chiua%<tv%>:chiu           TAM-Clase2-a ; ! "hacer"
 ilkaua%<tv%>:ilkau         TAM-Clase2-a ; ! "forget"
 chiya%<tv%>:chi%{y%}       TAM-Clase2-a ; ! "wait for"
 eua%<tv%>:eu               TAM-Clase2-a ; ! "raise, lift, get up (e.g. from bed)"
-kaua%<tv%>:ka%{u%}         TAM-Clase2-a ; ! "dejar"
+kaua%<tv%>:kau             TAM-Clase2-a ; ! "dejar"
 koua%<tv%>:kou             TAM-Clase2-a ; ! "comprar"
 kuepa%<tv%>:kuep           TAM-Clase2-a ; ! "voltear"
 chipaua%<tv%>:chipau	   TAM-Clase2-a ; ! "limpiar"
@@ -838,21 +861,14 @@ teki%<tv%>:tek             TAM-Clase2-i ; ! "cortar"
 tejteki%<tv%>:tejtek       TAM-Clase2-i ; ! "cortar varias veces"
 neki%<tv%>:nek             TAM-Clase2-i ; ! "querer"
 
-paleuia%<tv%>:paleui	   TAM-Clase3 ; ! "ayudar"
-kualania%<tv%>:kualani     TAM-Clase3 ; ! "anger"
-majtia%<tv%>:majti         TAM-Clase3 ; ! "frighten"
-miktia%<tv%>:mikti         TAM-Clase3 ; ! "kill"
-pakiltia%<tv%>:pakilti     TAM-Clase3 ; ! "make happy, cheer up"
-kixtia%<tv%>:kixti         TAM-Clase3 ; ! "take out, remove"
-paktia%<tv%>:pakti	       TAM-Clase3 ; ! "hacer feliz / gustar"
-tlakualtia%<tv%>:tlakualti TAM-Clase3 ; ! "feed"
-ijtoa%<tv%>:ijto           TAM-Clase3 ; ! decir"
-tlalia%<tv%>:tlali	       TAM-Clase3 ; ! "poner 
-machtia%<tv%>:machti	   TAM-Clase3 ; ! "enseñar/hacer saber"
-ijtotia%<tv%>:ijtoti       TAM-Clase3 ; ! "dance"
-nankilia%<n%>:nankili      TAM-Clase3 ; ! "contestar"
+namaka%<tv%>:namaka	       TAM-Clase1 ; ! "vender s.t."
+tlaksa%<tv%>:tlaksa         TAM-Clase1 ; ! "step on (pisar)"
+tlasojtla%<tv%>:tlasojtla  TAM-Clase1 ; ! "amar"
+ita%<tv%>:it		       TAM-Clase1-ita ; !"ver"
+ajua%<tv%>:ajua            TAM-Clase1 ; ! "scold"
+uika%<tv%>:uika            TAM-Clase1 ; ! "llevar"
+ualika%<tv%>:ualika        TAM-Clase1 ; ! "traer"
 
-kua%<tv%>:kua		       TAM-Clase4 ; ! "consumir/comer"
 
 LEXICON DV-Raiz
 maka%<tv2%>:maka       	   TAM-Clase1 ; ! "dar"

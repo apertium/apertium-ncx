@@ -1,0 +1,2361 @@
+Nahuatl exercises
+
+San Miguel Canoa Vocabulary	2 Pronouns
+neh	tehhua:n
+teh	namehhua:n
+yeh	yehhua:n
+Possessable Nouns
+calli	house
+caxtli	plate
+chantli	house
+comitl	pot
+cone:tl	child
+miztli, mizton	cat
+itzcui:ntli	dog
+metl	maguey cactus, century plant
+metlatl	metate
+nantli, nantzin mother tahtli, tahtzin father petlatl	petate
+pitzotl	pig
+yecatzotzo/mahtli  handkerchief
+ca:mactli	mouth
+icxitl	foot
+mahpil	finger
+maitl	hand
+na:/caztli	ear
+tentli	lip
+tzontecomatl	head
+xopil	toe
+xictli	navel
+Intransitive Verb Stems
+calaqui	enter	pa:qui	be happy
+cochi	sleep	pi:na:hua	be ashamed
+cho:ca	cry, weep	qui:za	emerge, go out
+choloa	flee	tena	moan, groan
+cuala:ni	get angry	tlehco	climb, ascend
+huetzca	laugh	tzahtzi	shout, yell
+huetzi	fall	tzecuini	jump miqui	 die
+Numbers
+1 ce	11	mahtlactli hua:n ce
+2 o:me	12	mahtlactli hua:n o:me
+
+caxto:l
+
+San Miguel Vocabulary  3
+
+Verb Prefixes
+Subject	Object
+ni-	ti-....-h	nech-	tech-
+ti-	nan-...-h	mitz-	amech-
+--	-- ...-h	c- (qui)	quin-
+
+    Transitive Verb Stems ahhua	scold
+ca:hua	leave
+caqui	hear
+chi(y)a	wait for
+e:hua	 raise, lift, get up (e.g. from bed) ihto:tia	dance
+ilca:hua	forget ilna:miqui		remember
+ilia	tell, say (to a person)
+itta	see
+ixmati	know (conocer)
+maca		give nahuahtequi			embrace no:tza	call
+tlacza	step on (pisar)
+
+cuala:nia	anger
+mahtia	frighten
+mictia	kill
+pa:qui:ltia			make happy, cheer up qui:xtia	take out, remove tlacualtia		feed
+
+
+Numbers
+1 ce	11	mahtlactli hua:n ce
+2 o:me	12	mahtlactli hua:n o:me
+3 ye:i	13	mahtlactli hua:n ye:i
+4 na:hui	14	mahtlactli hua:n na:hui
+5 ma:cuil	15	caxto:l
+6 chicua:cen	16	caxto:l hua:n ce
+7 chico:me	17	caxto:l hua:n o:me
+8 chicue:i	18	caxto:l hua:n ye:i
+9 chicna:hui	19	caxto:l hua:n na:hui
+10 mahtlactli	20	cempo:al
+
+.R:E
+
+.S:6
+
+.X:5
+
+
+.XT:1
+
+
+Transitive Verb Paradigm (excluding reflexives) (example verb: itta [see])
+subject prefixes are displayed in the far left column
+
+
+singular  objects
+
+nech-	mitz-	c-/qui-
+
+
+ni-
+--	nimitzitta	niquitta
+
+ti-
+tinechitta	--	tiquitta
+
+--
+nechitta	tiquitta	quitta
+
+
+ti-...-h
+--	timitzittah	tiquittah
+
+nan-..-h
+nannechittah --	nanquittah
+
+
+--....-h
+
+
+nechittah	mitzittah	quittah
+
+
+plural  objects
+
+te:ch-	namech-	quin-
+
+
+ni-
+--	namechitta	niquinitta
+
+ti-
+tite:chitta  --	tiquinitta
+
+--
+te:chitta	namechitta	quinitta
+
+
+ti-...-h
+
+--	tamechittah	tiquinittah
+
+nan-..-h
+tantechittah --	nanquinittah
+
+--....-h
+te:chittah	namechittah	quinittah
+
+Pattern Exercise 1: transitive verbs;yes/no questions
+
+Answer the following questions according to the model.
+Think of who is the subject and who is the object; picture the event. Model:
+Cue: Tine:chahhua?
+Ans: Quemah, nimitzahhua.
+
+1. Tine:chahhua?
+
+2. Ticcahua?
+
+3. Nanne:chcaquih?
+
+4. Nanquicaquih?
+
+5. Ne:chchia?
+
+6. Que:hua?
+
+7. Tine:chihto:tia?
+
+8. Tiquilca:hua?
+
+9. Nanne:chilna:miquih?
+
+10. Nanquiliah?
+
+11. Ne:chixmati?
+
+12. Quimaca?
+
+13. Tine:chnahuahtequi?
+
+14. Ticno:tza?
+
+15. Nanne:chtlaczah?
+
+16. Nanquicuala:niah?
+
+17. Ne:chmahtia?
+
+18. Quimictia?
+
+19. Tine:chpa:qui:ltia?
+
+20. Ticqui:xtia?
+
+21. Nanne:chtlacualtiah?
+
+22. Nancahhuah?
+
+23. Ne:chcahua?
+
+24. Quicaqui?
+
+25. Tine:chchia?
+
+Pattern Exercise 2: transitive verbs;yes/no questions
+
+Answer the following questions according to the model.
+Think of who is the subject and who is the object; picture the event. Model:
+Cue: Nimitzahhua?
+Ans: Quemah, tinechahhua.
+
+1. Nimitzitta?
+
+2. Niccaqui?
+
+3. Mitzchia?
+
+4. Timitzilca:huah?
+
+5. Ticcuala:niah?
+
+6. Nimitzpa:qui:ltia?
+
+7. Niccahua?
+
+8. Mitzcaqui?
+
+9. Timitzchiah?
+
+10. Tiquilca:huah?
+
+11. Nimitzitta?
+
+12. Niccuala:nia?
+
+13. Mitzpa:qui:ltia?
+
+14. Timitzca:huah?
+
+15. Ticcaquih?
+
+16. Nimitzchia?
+
+17. Niquilca:hua?
+
+18. Mitzitta?
+
+19. Timitzcuala:niah?
+
+20. Ticmahtiah?
+
+21. Nimitzmictia?
+
+22. Nicmahtia?
+
+23. Mitzmictia?
+
+24. Timitzmahtiah?
+
+25. Ticchiah?
+
+Pattern Exercise 3: transitive verbs; yes/no questions
+
+Answer the following questions according to the model.
+Think of who is the subject and who is the object; picture the event. Model:	Cue: Nimitzahhua?	Ans: Quemah, tinechahhua.
+
+1. Nimitzitta?
+
+2. Nimitzcaqui?
+
+3. Nimitzchia?
+
+4. Niquilca:hua?
+
+5. Niccuala:nia?
+
+6. Nicpa:qui:ltia?
+
+7. Ticca:hua?
+
+8. Ticcaqui?
+
+9. Ticchia?
+
+10. Timitzilca:huah?
+
+11. Timitzittah?
+
+12. Timitzcuala:niah?
+
+13. Ticpa:qui:ltiah?
+
+14. Ticcahuah?
+
+15. Ticcaquih?
+
+16. Nimitzilca:hua?
+
+17. Nimitzitta?
+
+18. Nimitzcuala:nia?
+
+19. Nicpa:qui:ltia?
+
+20. Nicca:hua?
+
+21. Niccaqui?
+
+22. Ticchia?
+
+23. Tiquilca:hua?
+
+24. Tiquitta?
+
+25. Ticcuala:nia?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+file:///Users/lamiller/lab/NahuatlEx/L06.txt[6/6/11 12:00:26 PM]
+
+Pattern Exercise 4: transitive verbs;yes/no questions
+
+Answer the following questions according to the model.
+Think of who is the subject and who is the object; picture the event. Model:	A	Cue: tante:chittah?	Ans: Quemah, tamechittah.
+B Cue: te:chittah?	Ans: Quemah, namechittah.
+C Cue: tamechittah?	Ans: Quemah, tante:chittah.
+D Cue: namechittah?	Ans: Quemah, te:chittah.
+
+1. tante:chca:huah?
+
+2. tante:chcaquih?
+
+3. tante:chchiah?
+
+4. tante:chilca:huah?
+
+5. te:chittah?
+
+6. te:chcuala:niah?
+
+7. te:chmahtiah?
+
+8. te:chmictiah?
+
+9. tamechpa:qui:ltiah?
+
+10. tamechca:huah?
+
+11. tamechcaquih?
+
+12. tamechchiah?
+
+13. namechilca:huah?
+
+14. namechittah?
+
+15. namechcuala:niah?
+
+16. namechmahtiah?
+
+17. tante:chmictiah?
+
+18. te:chpa:qui:ltiah?
+
+19. tamechilca:huah?
+
+20. namechmictiah?
+
+21. tante:chilca:huah?
+
+22. te:chpa:qui:ltiah?
+
+23. tamechchiah?
+
+24. namechmahtiah?
+
+25. tante:chchiah?
+
+Pattern Exercise 5: intransitive verbs; disagreeable commands
+
+In the following exercise, you play the part of a very disagreeable person.
+Your interlocutor says that he does something, BUT YOU TELL HIM NOT TO DO IT. Model:	Cue: Nicochi.	Response: A:mo xicochi.
+
+1. Nicho:ca.	7. Nitzecuini.
+
+2. Nihuetzca.	8. Nipi:na:hua.
+
+3. Nihuetzi.	9. Nitena.
+
+4. Nimiqui.	10. Nitlehco.
+
+5. Nipa:qui.	11. Nicalaqui.
+
+6. Nitzahtzi.	12. Nicuala:ni.
+
+13. Niqui:za.
+
+
+In the next part of the exercise, your interlocutor is a member of a group. He tells you that he and his companions do something (e.g. "We cry"
+[ticho:cah]), so being as contrary as you are, YOU TELL THEM NOT TO DO IT (e.g. "Don't cry (y'all)" [a:mo xicho:cacan]).
+
+
+14. Tiqui:zah.	20. Tipi:na:huah.
+
+15. Ticuala:nih.	21. Titzecuinih.
+
+16. Ticalaquih.	22. Tipa:quih.
+
+17. Titlehcoh.	23. Timiquih.
+
+18. Titenah.	24. Tihuetzih.
+
+19. Titzahtzih.	25. Tihuetzcah.
+
+26. Ticochih.
+
+Reply to the following cues, depending on whether a single person or a member of a group addresses you.
+
+27. Nitlehco.	34. Titzecuinih.
+
+28. Titlehcoh.	35. Nihuetzca.
+
+29. Tipa:quih.	36. Nicho:ca.
+
+30. Niqui:za.	37. Ticalaquih.
+
+31. Titenah.	38. Nipi:na:hua.
+
+32. Nimiqui.	39. Nitzahtzi.
+
+33. Nicochi.	40. Tihuetzih.
+
+Practice with Number Recall
+
+Look at each successive number (going down the columns) on the following list and count out loud in Nahuatl.
+
+1611162712173813184914195101520
+Read the numbers in Nahuatl on the above list going across each row.
+
+===================================================================
+Read each of the following Nahuatl words and point to the number in the list that corresponds to it.
+
+chico:me	mahtlactli	o:me
+
+caxto:l	caxto:l	mahtlactli
+
+chico:me	ma:cuil	chicue:i
+
+o:me	chicua:cen	ce
+
+cempo:al		ce	caxto:l hua:n ye:i caxto:l hua:n ye:i			o:me			ma:cuil chicua:cen			caxto:l hua:n ye:i		chico:me na:hui	cempo:al		o:me
+mahtlactli		na:hui	cempo:al ma:cuil	chicua:cen		chicua:cen
+chicue:i	mahtlactli	caxto:l
+
+o:me	chico:me	na:hui caxto:l hua:n ye:i	ma:cuil		mahtlactli
+na:hui	cempo:al	caxto:l hua:n ye:i
+
+chicua:cen	o:me	o:me
+
+Pattern Exercise 6  Future tense; negative answers
+
+You are asked a question about the future and you reply negatively. Model: Q: Ticochiz?	Ans: A:mo, amo nicochiz.
+
+1. Ticalaquiz?	8. Titlehcoz?
+
+2. Ticho:caz?	9. Titzecuiniz?
+
+3. Ticuala:niz?	10. Tipa:quiz?
+
+4. Tihuetzcaz?	11. Titenaz?
+
+5. Tihuetziz?	12. Tipi:na:huaz?
+
+6. Timiquiz?	13. Titzahtziz?
+
+7. Tiqui:zaz?	14. Titzecuiniz?
+
+
+You are addressed as a member of a group; reply negatively for yourself and the group.
+Model: Q: Nancho:cazqueh?	Ans: A:mo, amo ticho:cazqueh.
+
+1. Nanqui:zazqueh?	8. Nantzahtzizqueh?
+
+2. Nancuala:nizqueh?	9. Nanpa:quizqueh?
+
+3. Nancalaquizqueh?	10. Nanmiquizqueh?
+
+4. Nantlehcozqueh?	11. Nanhuetzcazqueh?
+
+5. Nantenazqueh?	12. Nanhuetzizqueh?
+
+6. Nanpi:na:huazqueh?	13. Nancochizqueh?
+
+7. Nantzecuinizqueh?	14. Nancho:cazqueh?
+
+Answer the following questions depending on how you are addressed.
+
+1. Tiqui:zaz?	8. Titenaz?
+
+2. Titzahtziz?	9. Nanpi:na:huazqueh?
+
+3. Nancuala:nizqueh?	10. Titzecuiniz?
+
+4. Nanpa:quizqueh?	11. Tipa:quiz?
+
+5. Ticalaquiz?	12. Nanhuetzizqueh?
+
+6. Timiquiz?	13. Ticuala:niz?
+
+7. Nantlehcozqueh?	14. Ticochiz?
+
+
+
+Pattern Exercise 7  Future tense; verb as object
+
+You are asked a question about the future and you reply affirmatively. Model: Q: Ticnequi ticho:caz? Ans: Quemah, nicnequi nicho:caz.
+
+1. Ticnequi ticalaquiz?	8. Ticnequi titlehcoz?
+
+2. Ticnequi ticho:caz?	9. Ticnequi titzecuiniz?
+
+3. Ticnequi ticuala:niz?	10. Ticnequi tipa:quiz?
+
+4. Ticnequi tihuetzcaz?	11. Ticnequi titenaz?
+
+5. Ticnequi tihuetziz?	12. Ticnequi tipi:na:huaz?
+
+6. Ticnequi timiquiz?	13. Ticnequi titzahtziz?
+
+7. Ticnequi tiqui:zaz?	14. Ticnequi titzecuiniz?
+
+
+You are addressed as a member of a group; reply negatively for yourself and the group.
+Model: Q:  Nanquinequi nancochizqueh?
+Ans: A:mo, amo ticnequih ticochizqueh.
+
+1. Nanquinequi nanqui:zazqueh?	8. Nanquinequi nantzahtzizqueh?
+
+2. Nanquinequi nancuala:nizqueh?	9. Nanquinequi nanpa:quizqueh?
+
+3. Nanquinequi nancalaquizqueh?	10. Nanquinequi nanmiquizqueh?
+
+4. Nanquinequi nantlehcozqueh?	11. Nanquinequi nanhuetzcazqueh?
+
+5. Nanquinequi nantenazqueh?	12. Nanquinequi nanhuetzizqueh?
+
+6. Nanquinequi nanpi:na:huazqueh?	13. Nanquinequi nancochizqueh?
+
+7. Nanquinequi nantzecuinizqueh?	14. Nanquinequi nancho:cazqueh?
+
+Answer the following questions depending on how you are addressed.
+
+1. Ticnequi tiqui:zaz?	8. Ticnequi titenaz?
+
+2. Ticnequi titzahtziz?	9. Nanquinequi nanpi:na:huazqueh
+
+3. Nanquinequi nancuala:nizqueh?	10. Ticnequi titzecuiniz?
+
+4. Nanquinequi nanpa:quizqueh?	11. Ticnequi tipa:quiz?
+
+5. Ticnequi ticalaquiz?	12. Nanquinequi nanhuetzizqueh?
+
+6. Ticnequi timiquiz?	13. Ticnequi ticuala:niz?
+
+7. Nanquinequi nantlehcozqueh?	14. Ticnequi ticochiz?
+
+Pattern Exercise 8  Incredulous Possessed Nouns
+
+maitl		noma		hand		cueitl	nocue	skirt metztli			nometz			leg, thigh cuicatl			nocuicah				song nacayotl				 nonacayo				flesh					itzcui:ntli notzcui:n				dog nacaztli			 nonacaz				ear			izhuatl		nozhuah			cornhusk omitl**				no:mio				 bone				metlatl			nometl				metate tla:ntli	notla:n	tooth	michin	nomich		fish
+xictli	noxi:c	navel		mizton		nomizton			cat yehuayotl				noyehuayo	skin					nectli			nonec					pulque yezzotl				noyezzo				blood				ohtli			 no:hhuih				road amatl			noamah			paper			petlatl			nopetl		petate caxitl		nocax		plate			pitzotl	nopitzoh	pig
+chantli	nochan	house	 to:catl	 noto:ca	name conetl	noconeh		child	yollo	noyollo	heart
+cozcatl	cozcah	jewel, bead zoatl	nozoah	woman, wife
+
+You are told something surprising or horrible about someone's possession (maybe yours, maybe mine, maybe his). React with surprise (English: Cue: My cat. Resp.: Your cat?)
+Model: Cue: Nomizton.	Resp.: Momiston?
+Cue: Mopitzoh.	Resp.: Nopitzoh?
+
+1. Noconeh.16. Nopitzoh.31. I:zoah.2. Nomizton.17. Noyollo.32. I:ma.3. Moto:ca.18. Moamah.33. Mocueh.4. Nonec.19. Mochan.34. Nonacaz.5. Mometl.20. Noxi:c.35. I:nec.6. Mozoah.21. Notla:n.36. I:zoah7. Noma.22. Moyehuayo.37. Mo:hhuih.8. Nocue.23. Moma.38. I:mich.9. Monacaz.24. Moyezzo.39. Nonacayo.10. Monec.25. Nozhuah.40. Mo:mio.11. Mozoah26. Iconeh.41. I:pitzoh.12. No:hhuih.27. Momizton.42. Moyollo.13. Nomich.28. I:to:ca.43. Noamah.14. Monacayo.29. Monec.44. I:chan.15. Mo:mio.30. I:metl.45. I:tla:n.
+
+
+Pattern Exercise 9: Future tense; intransitive verb as object; different subjects in the two verbs.
+
+You are asked if you want your interlocutor to do something. Answer affirmatively or negatively.
+Model: Q: Ticnequi nipa:quiz?	Ans: Quemah, nicnequi tipa:quiz.
+
+1. Ticnequi nicochiz?	8. Ticnequi nipa:quiz?
+
+2. Ticnequi nicalaquiz?	9. Ticnequi nihuetzcaz?
+
+3. Ticnequi niqui:zaz?	10. Ticnequi nitlehcoz?
+
+4. Ticnequi nicuala:niz?	11. Ticnequi nitenaz?
+
+5. Ticnequi nihuetziz?	12. Ticnequi nitzecuiniz?
+
+6. Ticnequi nimiquiz?	13. Ticnequi nicho:caz?
+
+7. Ticnequi nipi:na:huaz?	14. Ticnequi nitzahtziz?
+
+You, as a member of a group, are asked if y'all want your single interlocutor to do something. Answer affirmatively or negatively.
+Model: Q: Nanquinequih nipa:quiz?	Ans: Quemah, nicnequih tipa:quiz.
+
+1. Nanquinequih nicochiz?	8. Nanquinequih nipa:quiz?
+
+2. Nanquinequih nicalaquiz?	9. Nanquinequih nihuetzcaz?
+
+3. Nanquinequih niqui:zaz?	10. Nanquinequih nitlehcoz?
+
+4. Nanquinequih nicuala:niz?	11. Nanquinequih nitenaz?
+
+5. Nanquinequih nihuetziz?	12. Nanquinequih nitzecuiniz?
+
+6. Nanquinequih nimiquiz?	13. Nanquinequih nicho:caz?
+
+7. Nanquinequih nipi:na:huaz?	14. Nanquinequih nitzahtziz?
+
+Answer the following questions according to whether you are addressed alone or as a member of a group.
+Model: Q: Nanquinequih nipa:quiz? Ans: Quemah, nicnequi tipa:quiz.
+Q: Ticnequi nipa:quiz?	Ans: Quemah, nicnequi tipa:quiz.
+
+1. Ticnequi nicochiz?	8. Ticnequi nipa:quiz?
+
+2. Ticnequi nicalaquiz?	9. Nanquinequih nihuetzcaz?
+
+3. Nanquinequih niqui:zaz?	10. Nanquinequih nitlehcoz?
+
+4. Nanquinequih nicuala:niz?	11. Ticnequi nitenaz?
+
+5. Ticnequi nihuetziz?	12. Ticnequi nitzecuiniz?
+
+6. Ticnequi nimiquiz?	13. Nanquinequih nicho:caz?
+
+7. Nanquinequih nipi:na:huaz?  14. Ticnequi nitzahtziz?
+
+Pattern Exercise 10: Reflexive verbs: Future tense.
+
+      Meanings with reflexive (mo-) a:ltia shampoo	e:hua	get up
+tema	bathe	telquetza stand up
+ca:hua remain	te:ca	lie down
+cuepa  return	tla:lia	sit down
+
+Answer the following questions either affirmatively or negatively.
+
+1. Timotemaz?	5. Time:huaz?
+
+2. Timoca:huaz?	6. Timocuepaz?
+
+3. Timotelquetzaz?	7. Timote:caz?
+
+4. Timotla:liz?	8. Tima:ltiz?
+
+. . . . . . . . . . .
+
+9. Nanmocuepazqueh?	13. Nanmotemazqueh?
+
+10. Nanme:huazqueh?	14. Nanmotla:lizqueh?
+
+11. Nanma:ltizqueh?	15. Nanmotelquetzazqueh?
+
+12. Nanmoca:huazqueh?	16. Nanmote:cazqueh?
+
+. . . . . . . . . . .
+
+17. Nimotemaz?	21. Nimotelquetzaz?
+
+18. Nimocuepaz?	22. Nima:ltiz?
+
+19. Nimotla:liz?	23. Nimote:caz?
+
+20. Nime:huaz?	24. Nimoca:huaz?
+
+. . . . . . . . . . .
+
+25. Timocuepazqueh?	29. Timotemazqueh?
+
+26. Timotelquetzazqueh?	30. Timotla:lizqueh?
+
+27. Time:huazqueh?	31. Timoca:huazqueh?
+
+28. Timote:cazqueh?	32. Tima:ltizqueh?
+
+    Pattern Exercise 11: Past Tense; -ia and -oa verbs ihto:tia	dance	ihcuiloa	write
+ilia	tell to	ihtoa	say
+ilpia	tie up	nechicoa	gather mictia		kill	 nempaloa		lick no:quia			pour (out)			piloa			hang palehuia				help		te:moa			 look for quitzquia				 grab
+tla:tia	hide
+Answer the following questions either affirmatively or negatively.
+
+1. oticmictih?	8. otiquihcuiloh?
+
+2. otictla:tih?	9. oticnempaloh?
+
+3. otiquilih?	10. oticpiloh?
+
+4. otiquihto:tih?	11. otiquihtoh?
+
+5. oticnoquih?	12. oticnechicoh?
+
+6. oticquitzquih?	13. otictemoh?
+
+7. oticpalehuih?
+. . . . .
+14. Onanquimictihqueh?	21. Onanquinempalohqueh?
+
+15. Onanquitla:tihqueh?	22. Onanquipilohqueh?
+
+16. Onanquilihqueh?	23. Onanquihtohqueh?
+
+17. Onanquihto:tihqueh?	24. Onanquinechicohqueh?
+
+18. Onanquinoquihqueh?	25. Onanquitemohqueh?
+
+19. Onanquiquitzquihqueh?	26. Onanquihcuilohqueh?
+
+20. Onanquipalehuihqueh?
+. . . . . .
+27. Otinechilpih?	31. Otinechilih?
+
+28. Otinechihto:tih?	32. Otinechtemoh?
+
+29. Otinechpalehuih?	33. Otinechpiloh?
+
+30. Otinechquitzquih?
+.. . . . . .
+34. Onimitzpiloh?	38. Onimitzihto:tih?
+
+35. Onimitzilih?	39. Onimitztemoh?
+
+36. Onimitzilpih?	40. Onimitzpalehuih?
+
+37. Onimitzquitzquih?
+
+Pattern Exercise 12: Future tense after ihcuac
+
+Familiarize yourself with the following sentences by translating them aloud. Note that since the verb refers to future time, it
+is in the future tense.
+Model: Tinechittaz ihcuac tihualahciz?
+Trans: Will you see me when you arrive (back here)? [ahci: arrive; hualahci: arrive back here]
+
+1. Tinechmacaz ihcuac tinechittaz?
+
+2. Ticho:caz ihcuac miquiz momizton?
+
+3. Ticualaniz ihcuac mitzahhuaz in mozoah?
+
+4. Titzahtziz ihcuac choloz in mopitzoh?
+
+5. Titenaz ihcuac nimitztlaczaz?
+
+6. Tinechiliz ihcuac ticnequiz titlacuaz?
+
+7. Ticalaquiz ihcuac ticnequiz in monec?
+
+8. Tihuetzcaz ihcuac nihuetziz?
+
+9. Tipa:quiz ihcuac nipi:na:huaz?
+
+10. Timotemaz ihcuac timoca:huaz?
+
+11. Time:huaz ihcuac niqui:zaz?
+
+12. Ticualaniz ihcuac niquiliz in monan?
+
+13. Tihuetzcaz ihcuac tiquittaz in noxic?
+
+14. Ticcaquiz ihcuac nimitzno:tzaz?
+
+15. Timomahtiz ihcuac nicpiloz in notoch?
+
+16. Tinechahhuaz ihcuac a:mo nimitzmacaz in motlaxcal?
+
+17. Tinechilca:huaz ihcuac nimiquiz?
+
+18. Timocuepaz ihcuac huetziz in moconeh?
+19. Tinechchiaz ihcuac tiqui:zaz? tlacza	step on
+mo-mahtia		get frightened tlacua	eat (something)
+
+Now answer the above questions according to the following model: Cue: Tinechilpiz ihcuac nitzahtziz?
+
+Ans:  Quemah, nimitzilpiz ihcuac titzahtziz.
+
+Pattern Exercise 13: Future tense after ihcuac
+
+Familiarize yourself with the following sentences by translating them aloud. Note that since the verb refers to future time, it
+is in the future tense.
+Model: Nannechittazqueh ihcuac nanhualahcizqueh? Trans: Will y'all see me when you arrive (back here)?
+[ahci: arrive; hualahci: arrive back here]
+
+1. Nannechmacazqueh ihcuac nannechittazqueh?
+
+2. Nancho:cazqueh ihcuac miquiz namomizton?
+
+3. Nancualanizqueh ihcuac namechahhuaz in namonan?
+
+4. Nantzahtzizqueh ihcuac choloz in namopitzoh?
+
+5. Nantenazqueh ihcuac namechtlaczaz?
+
+6. Nannechilizqueh ihcuac nanquinequizqueh nantlacuazqueh?
+
+7. Nancalaquizqueh ihcuac nanquinequizqueh in namonec?
+
+8. Nanhuetzcazqueh ihcuac nihuetziz?
+
+9. Nanpa:quizqueh ihcuac nipi:na:huaz?
+
+10. Nanmotemazqueh ihcuac nanmoca:huazqueh?
+
+11. Nanme:huazqueh ihcuac niqui:zaz?
+
+12. Nancualanizqueh ihcuac niquiliz in namonan?
+
+13. Nanhuetzcazqueh ihcuac nanquittazqueh in noxic?
+
+14. Nanquicaquizqueh ihcuac namechno:tzaz?
+
+15. Nanmomahtizqueh ihcuac nicpiloz in notoch?
+
+16. Nannechahhuazqueh ihcuac a:mo namechmacaz in namotlaxcal?
+
+17. Nannechilca:huazqueh ihcuac nimiquiz?
+
+18. Nanmocuepazqueh ihcuac huetziz in namoconeh?
+
+19. Nannechchiazqueh ihcuac nanqui:zazqueh?
+20. Nanma:ltizqueh ihcuac nanmote:cazqueh? tlacza	step on
+mo-mahtia		get frightened tlacua	eat (something)
+
+Now answer the above questions according to the following model: Cue: Nannechilpizqueh ihcuac nitzahtziz?
+Ans:  Quemah, timitzilpizqueh ihcuac titzahtziz.
+
+Pattern Exercise 14: Future tense after monequi
+
+Familiarize yourself with the following sentences by translating them aloud.
+
+Model: Tlen monequi?  Ticchihuaz in tlacual?
+Trans: What is necessary? (For) you to make the meal?
+
+1. Tlen monequi? Ticchihuaz in tlaxcal?
+
+2. Tlen monequi? Ticpalehuiz in motah?
+
+3. Tlen monequi? Ticnoquiz in a:tl?
+
+4. Tlen monequi? Ticmictiz in totolin?
+
+5. Tlen monequi? Ticnechicoz in yetl?
+
+6. Tlen monequi? Tiquilca:huaz in noto:ca?
+
+7. Tlen monequi? Tiquihto:tiz in nozoah?
+
+8. Tlen monequi? Ticalaquiz nochan?
+
+9. Tlen monequi? Timotla:tiz tlamachtiloyan?
+
+10. Tlen monequi? Ticquitzquiz in mizton?
+
+11. Tlen monequi? Tiquilpiz in pitzotl?
+
+12. Tlen monequi? Tiquihcuiloz in moto:ca?
+
+13. Tlen monequi? Ticnempaloz in tzopelic?
+
+14. Tlen monequi? Ticnechicoz in tlaol?
+15. Tlen monequi? Tictla:tiz in zoatl? chihua	make
+nechicoa		gather ilpia	tie
+tlamachtiloyan school tzopelic	candy
+tlaol	corn
+yetl	bean
+
+Now answer the above questions according to the following model. Cue: Tlen monequi? Tichuitequiz in moconeh?
+Ans: Quemah, monequi nichuitequiz in noconeh.
+
+Pattern Exercise 15:  Irregular Verbs: be, come, go
+
+be:	present	|	be:  past	|  be:  future
+|	|
+nicah  ticateh	|	oniec  otiequeh	|  niez	tiezqueh
+ticah nancateh		|		otiec onanyequeh		| tiez		nanyezqueh cah	cateh	|		oyec	oyequeh	| yez	yezqueh
+|	|
+|	|
+|	|
+come:  present	|  come:  past	|	come:  future
+|	|
+nihuitz tihuitzeh | onihuallah otihuallahqueh | nihuitz tihuallazqueh tihuitz nanhuitzeh | otihuallah onanhuallahqueh | tihuitz nanhuallazqueh huitz	huitzeh	| ohuallah	ohuallahqueh	| huitz	huallazqueh
+|	|
+|	|
+|	|
+go:  present	|	go:  past	|	go:  future
+|	|
+niah	tiahueh	|  oniah	otiahqueh	|  niaz	tiazqueh
+tiah	nanyahueh | otiah	onanyahqueh		| tiaz		nanyazqueh yahui		yahueh	| oyah	 oyahqueh	| yaz	yazqueh
+|	|
+
+
+Familiarize yourself with the following sentences by translating them aloud.
+
+1. Canin tiaz?
+
+2. Niaz tlamachtiloyan.
+
+3. Canin oyah moconeh? Cuahtlan?
+
+4. Aquin yaz in cuahtlan? In nocnih?
+
+5. Quenman huitz in nocohcol? Huiptla?
+
+6. Huiptla a:mo huitz in mocohcol.
+
+7. Canin cah in nocax? Inahuac in tlecuil?
+
+8. A:mo nicmati canin cah in mocax.
+
+9. Canin oyah in mohueltih? Teopan?
+
+10. Tleca a:mo oyah cuahtlan? Mococoa?
+
+cuahtlan	country, outside of town tlamachtiloyan		school
+teopan	church
+mococoa	he is sick
+
+hueltitl	sister of male
+icnitl	sibling of same sex oquichtitl brother of female cohcol		grandfather
+
+Pattern Exercise 16: Irregular Verbs: be, come, go
+
+Familiarize yourself with the following sentences by translating them aloud.
+
+1. Canin ticah axan?
+
+2. Canin cah in mohueltih?
+
+3. Canin nancateh namehuan?
+
+4. Quimati in mocnih can nicah?
+
+5. Ticateh tinochtin?
+
+6. Canin cateh in mopilhuan?
+
+7. Zan ceccan oyequeh nochtin?
+
+8. Aquin inahuac otiequeh?
+
+9. Tle:ca otiec cuentlah?
+
+10. Quenman oyec in ilhuitl?
+
+11. Aquin inahuac oniec?
+
+12. Cualli onanyequeh?
+
+13. Canin tiezqueh moztla?
+
+14. Tle:ca yez ilhuitl huiptla?
+
+15. Ticmati canin niez moztla?
+
+16. Quenman yezqueh tlamachtiloyan in mocnihuan?
+
+17. Quenman tihuitz inahuac in monan?
+
+18. Quenman nanhuitzeh? Ipan ilhuitl?
+
+19. Aquin ne huitz?
+
+20. Quenman ohuallah in mocohcol?
+
+21. Tle:ca onanhuallahqueh i:chan? Nic onamechnotz?
+
+22. Quenman onihuallah?
+
+23. Moztla tihuallazqueh tinochtin?
+
+24. Huitz monahuac in moconeh moztla?
+
+25. Ticnequi nihuitz inahuac in motlahuical?
+
+26. Nanquinequih huallazqueh in namopilhuan?
+
+27. Canin tiah totoca?
+
+28. Tle:ca yahui in cuahtlan? Nic quinequi?
+
+29. Ticmati canin tiahueh?
+
+30. Tle:ca yahueh tlamachtiloyan? Nic quinpactia?
+
+31. Canin oyah in mocih?
+
+32. Canin otiahqueh in yehuiptla?
+
+33. Canin oniah in yala?
+
+34. Tle:ca oyahqueh inahuac in tlamachtihqui? Nic quinmachtiz?
+
+35. Aquin yaz nonahuac?
+
+36. Canin tiazqueh cualcan?
+
+37. Quenman nanyazqueh nochan?
+
+38. Canic tiaz in cuahtlan?
+
+all, everything	nochi
+everyone (todos)	nochtin
+
+fiesta	ilhuitl
+good, fine, O.K.	cualli
+
+whereabouts (about where)	canic there	ne
+near him, with him		inahuac together, in one place		 zan ceccan outside	cuentlah
+for, because		nic fast	totoca
+teach	machtia
+I like (it)	ne:chpa:ctia your grandfather		mocohcol
+your grandmother		mocih husband	tlahuical
+
+day before yesterday		yehuiptla yesterday	yala
+
+Now answer the above questions.
+
+Pattern Exercise 17: Directional suffixes: -tih (outward bound, singular, non-past)
+
+Familiarize yourself with these sentences by translating them aloud.
+
+1. Ticno:quitih in a:tl?
+
+2. Ticchihuatih in tlacual?
+
+3. Ticpalehuitih in mocnih ihcuac tequitiz?
+
+4. Ticnechicotih in xochitl?
+
+5. Tiquihto:titih in mozoah ipan ilhuitl?
+
+6. Tictla:titih in tochtli ihcuac huitz in mohueltih?
+
+7. Ticquitzquitih in huehxolotl ihcuac yaz cuentlah?
+
+8. Tiquihcuilotih in moto:ca ihcuac huitz in tlamachtihqui?
+
+9. Tiquilpitih in motzcuin ihcuac huallazqueh in coconeh?
+
+10. Ticnempalotih in tzopelic ihcuac yez?
+
+11. Ticahhuatih in mozoah ihcuac yazqueh nochtin?
+
+12. Tiquilitih in motah ihcuac nanyazqueh?
+
+13. Ticmictitih in pitzotl ihcuac timayanaz?
+
+14. Tictlalitih in textli ipan in metlatl ihcuac titeciz?
+
+15. Ticchiatih in moconeh ihcuac huitz?
+
+16. Ticcalaquitih in totolin ihcuac tzahtziz?
+
+17. Ticpilotih in mocue ihcuac huetziz?
+
+18. Tictlehcoltitih in mizton ihcuac temoz?
+
+19. Ticte:motih in tochtli ihcuac quizaz?
+20. Timoca:huatih ichan mocicih ihcuac mitzno:tzaz? coconeh	children
+mayana	be hungry
+a:miqui	be thirsty
+cecui	be cold
+tlatla	be hot
+teci	make tortillas calaquia		 to put in (meter) tlehcoltia		to raise up (subir)
+
+Answer the above questions according the following model. Cue: Ticpilotih in mocue ihcuac huetziz?
+Ans: Quemah, nicpilotih in nocue ihcuac huetziz.
+
+Pattern Exercise 18: Directional suffixes: -tihueh (outward bound, plural, non-past)
+
+Familiarize yourself with these sentences by translating them aloud.
+
+1. Nanquino:quitihueh in a:tl?
+
+2. Nanquichihuatihueh in tlacual?
+
+3. Nanquipalehuitihueh in namocnih ihcuac tequitiz?
+
+4. Nanquinechicotihueh in xochitl?
+
+5. Nanquihto:titihueh in namocnih ipan ilhuitl?
+
+6. Nanquitla:titihueh in tochtli ihcuac huitz in namohueltih?
+
+7. Nanquiquitzquitihueh in huehxolotl ihcuac yaz cuentlah?
+
+8. Nanquihcuilotihueh in namoto:cahuan ihcuac huitz in tlamachtihqui?
+
+9. Nanquilpitihueh in namotzcuin ihcuac huallazqueh in coconeh?
+
+10. Nanquinempalotihueh in tzopelic ihcuac yez?
+
+11. Nancahhuatihueh in namoconeh ihcuac yazqueh nochtin?
+
+12. Nanquilitihueh in namotah ihcuac nanyazqueh?
+
+13. Nanquimictitihueh in pitzotl ihcuac nanmayanazqueh?
+
+14. Nanquitlalitihueh in textli ipan in metlatl ihcuac nantecizqueh?
+
+15. Nanquichiatihueh in namoconeh ihcuac huitz?
+
+16. Nanquicalaquitihueh in totolin ihcuac tzahtziz?
+
+17. Nanquipilotihueh in cueitl ihcuac huetziz?
+
+18. Nanquitlehcoltitihueh in mizton ihcuac temoz?
+
+19. Nanquite:motihueh in tochtli ihcuac quizaz?
+
+20. Nanmoca:huatihueh ichan namocicih ihcuac namechno:tzaz?
+
+
+Answer the above questions according the following model. Cue: Nanquipilotihueh in cueitl ihcuac huetziz?
+Ans: Quemah, ticpilotihueh in cueitl ihcuac huetziz.
+
+    Pattern Exercise 19: Causative verbs: intransitive stem Familiarize yourself with these sentences by translating them aloud.
+1. Ticcalaquia in moconeh tlamachtiloyan?
+
+2. Ticcochitia in moxhuih?
+
+3. Tichuetzquitia in mozoah ihcuac ticquehqueloa?
+
+4. Tichuetzitia in molcaxitl ihcuac time:hua?
+
+5. Ticmictia in ocuilin ihcuac tictlacza?
+
+6. Ticpa:quiltia in moconeh ihcuac tictlamaca?
+
+7. Tictzahtzitia in mocnih ihcuac ticmahtia?
+
+8. Tictzecuinaltia in a:tl ihcuac ticnoquia?
+
+9. Ticpinahtia in motlazoh nic tlaconi?
+
+10. Mitztlehcoltia in motah ipan axno?
+
+11. Mitzcalaquia teopan in monan?
+
+12. Mitzittitia in mocohcol canic tiaz?
+
+13. Mitzcaqui:tia in cuicatl in moahui?
+
+14. Mitzcualania in tlamachtihqui nic mitztlahtlania?
+
+15. Mitzquixtia in motah nic a:mo tictlacatoca?
+
+16. Mitztemoia motah den cuahuitl?
+17. Mitztexitia in momonnan? quehqueloa	tickle
+tlaconi	she drinks (alcohol) axno	 donkey
+motlazoh		your dear one, your honey moahui	your aunt
+motio	your uncle mocohcol				your grandfather mocih		your grandmother moxhuih			your grandchild
+momonnan		your mother-in-law momontah	your father-in-law mozoamon		your daughter-in-law
+momon		your son-in-law (Classical 'montli') tlahtlania	ask questions
+tlacatoca	obey
+
+den	from the (from: de in)
+
+Answer the above questions according the following model. Cue: Ticmictia in ocuilin ihcuac tictlacza?
+Ans: Quemah, nicmictia in ocuilin ihcuac nictlacza.
+
+Pattern Exercise 20: Causative verbs II
+
+Familiarize yourself with these sentences by translating them aloud.
+
+1. Ticnequi nimitztemoiz den cuahuitl?
+
+2. Ticnequi nimitzcochitiz ihcuac ticochmiquiz?
+
+3. Ticnequi nimitzquixtiz den tlamachtiloyan?
+
+4. Ticnequi nimitzmachtiz quen titlahcuiloz?
+
+5. Ticnequi nimitzmahtiz ica ce yolcatl?
+
+6. Ticnequi nimitzilca:hualtiz in motlahuical?
+
+7. Ticnequi nimitzcahca:hualtiz in motlazoh?
+
+8. Ticnequi nimitzpinahtiz ixpan teopan?
+
+9. Ticnequi nimitztenaltiz ica ce cuahuitl?
+
+10. Nanquinequih neh namechchihualtiz in tlacual?
+
+11. Nanquinequih namechtzahtzitiz icuitlapan in calli?
+
+12. Nanquinequih namechpa:quiltiz ica ce cuicatl?
+
+13. Nanquinequih namechquitzquiltiz in mizton?
+
+14. Nanquinequih namechhuetzquitiz nochan?
+
+15. Nanquinequih namechcho:cho:ctiz ica in xonacatl?
+
+16. Nanquinequih namechittitiz in nonenepil?
+
+17. Nanquinequih namechtemoiz den cuahuitl?
+
+18. Tinechhuetzquitiz moztla mochan?
+
+19. Tinechtzahtzitiz ihcuac tinechpahtiz?
+
+20. Tinechmahtiz ica quimichin?
+
+ica	with it (instrument, means) icuitlapan			behind it, at its back yolcatl		animal
+quen	how
+caca:hua		leave, let go of, abandon (redup.) ixpan	in front of it
+xonacatl		onion nonenepil			my tongue pahtia	cure
+
+Answer the above questions according the following model. Cue: Nanquinequih namechittitiz in mizton?
+Ans: Quemeh, ticnequih titechittitiz in mizton.
+
+Pattern Exercise 21: Irregular Verbs II: be, come, go
+
+Familiarize yourself with the following sentences by translating them aloud.
+
+1. Canin nanyazqueh?
+
+2. Canin oyah moconeh?
+
+3. Canin yaz in momonnan?
+
+4. Canin otiah yala?
+
+5. Quenin otiec?
+
+6  Quenin onanyequeh?
+
+7. Quenin cah in motah?
+
+8. Aquin cah cuentlah?
+
+9. Aquin huitz moztla?
+
+10. Aquin oyah monahuac?
+
+11. Canic onancatcah yecualcan?
+
+12. Tle:ca a:mo huitz moztla in mocohcol?
+
+13. Tle:ca amo otihuallah yala?
+
+14. Aquin huitz moztla?
+
+15. Canin oyah in mozoamon?
+
+16. Quenman tihuitz nochan?
+
+17. Quenman huitz in mohuehpol?
+
+18. Ticmati canin cateh in tocnihuan?
+
+19. Ticmati quenman ohuallah in nocohcol?
+
+20. Ticmati canin tiazqueh huiptla?
+
+21. Nanyazqueh inahuac in namomontah?
+
+22. Oyah monahuac in nomonnan?
+
+23. Aquin nican cah?
+
+24. Aquin nononqueh nican cateh?
+
+Pattern Exercise 21: Irregular Verbs II: be, come, go [p. 2]
+
+25. Quenman ohuallah non tlacatl?
+
+26. Ticnequi tiaz nonahuac?
+
+27. Quinequi huitz nochan mocohcol?
+
+28. Tle:ca a:mo ticnequi tihuitz nochan?
+
+29. Tle:ca oyah monahuac in Diana?
+
+30. Quimati mocih canin ticah?
+
+31. Ticmati canic oyah in pio?
+
+32. Nanquimatih quenman ohuallah namocnih?
+
+33. Aquin yez totlamachtihqui in occe xihuitl?
+
+34. Canin tiaz axan?
+
+35. Quenman oyec in ilhuitl?
+
+36. Ticmati yez in ilhuitl?
+
+37. Canin nanyezqueh moztla?
+
+38. Canin nanyahueh totoca?
+
+39. Tle:ca a:mo ohuallah in momon?
+40. Quenman onanyequeh nannochtin namochanhuan? occe	another, next
+xihuitl	year
+yecualcan			past morning cualcan		coming morning mohuehpol				brother-in-law pio	chicken
+
+nin	this (one) [near me]
+non	that (one) [near you]
+neca	that (one) [over there]
+
+ninqueh		these [near me] nonqueh			those [near you] necate	those [over there]
+
+nican	here
+oncan	there [near you]
+ompa	over there
+
+Answer the above questions.
+
+Pattern Exercise 22: Benefactive [applicative] verbs
+
+Familiarize yourself with the following sentences by translating them aloud.
+
+1. Ticmati in moahui nechtlapolhuilia in tlatzacuilotl?
+
+2. Ticmati in momontah nechicanhuilia in noaxno?
+
+3. Ticmati in mocicih nechahhuahuilia in noconeh?
+
+4. Ticmati in notah nechihcuilhuilia?
+
+5. Ticmati in nomonnan nechilpilia in pitzotl?
+
+5. Ticmati in nocohcol nechtetequilia in cuahuitl?
+
+6. Ticmati in nocnih nechte:molia in nocoton?
+
+7. Ticmati in nohueltih nechtlalilia in tlaxcal?
+
+8. Ticmati in mocnih nechnemaquia in nocal?
+
+9. Ticmati in mocohcol nechtataquilia in nomeh?
+
+10. Ticmati in mocnih nechittilia in noixtololo?
+
+11. Ticmati in momonnan nechtzacuilia in nototol?
+
+12. Quimati in mocohcol nimitzpialia in mochcah?
+
+13. Quimati in mocicih nimitznemaquia in motlal?
+
+14. Quimati in momontah nimitztetequilia in cuahuitl?
+
+15. Quimati in motah nimitztlaxtlahuilia in monec?
+
+16. Quimati in monan nimitzcoilia in motecac?
+
+17. Quimati in mohueltih nimitzmehmelahuilia in motlatzintlancoton?
+
+18. Quimati in monan nimitzchihuilia in tlacual?
+
+19. Quimati in notah tinechpinahuilia in nocal?
+
+20. Quimati in nocicih tinechpolhuilia in notomin?
+
+21. Quimati in noxhuih tinechtenehuilia in notlahtlacol?
+
+22. Quimati in nocohcol tinechtequitilia nocuentlah?
+
+23. Quimati in notio tinechhualiquilia in notzopelic?
+
+24. Quimati in nomonnan tinechxelhuilia in notex?
+
+
+Pattern Exercise 22: Benefactive [applicative] verbs
+
+25. Quimati in mozoah tinechnelhuilia in noatol?
+
+26. Quimati in motlahuical tinechmictilia in nochcah?
+
+27. Otinechpolhuilih in notoch?
+
+28. Otinechtzoyonilih in noyeh?
+
+29. Otinechcuepilih in noa:h?
+
+30. Otinechno:no:chilih in noconeh?
+
+31. Otinechaltilih in nozoamon?
+
+32. Otinechpozonilih in noatol?
+
+33. Otinechnemitilih in nocnih?
+
+34. Otinechtomilih in nopitzoh?
+
+35. Otinechnochilih in tepa/htihqui?
+
+36. Otinechihtzomilih in nocoton?
+
+37. Otinechtzacuilih in noconeh?
+
+38. Otinechihtlani:lih in nocax?
+
+39. Otinechna:miquilih in nochpoch?
+
+40. Otinechpa:quihuilih in nocue?
+
+41. Otinechpa:quiltilih in noconeh?
+
+42. Omitzihto:tilih in mozoah?
+
+43. Omitzihtzomilih in mocue?
+
+44. Omitzpozonilih in monec?
+
+45. Omitztotomilih in mocoton?
+
+46. Omitzmictilih in motoch?
+
+47. Omitztzoyonilih in momol?
+
+48. Omitznochilih in mocicih?
+
+49. Omitzihtlani:lih in motlacual?
+
+   Pattern Exercise 23: Honorific Verbs I; second person singular Familiarize yourself with the following sentences by translating them aloud.
+1. Tle:ca otoncho:cac ihcuac otontlacuah?
+
+2. Canin otoncoch ihcuac otontequitito?
+
+3. Canic otonyah ihcuac oticonquitzquih in pio?
+
+4. Canic otoncalac ihcuac otonyah ichan moconetzin?
+
+5. Tlen oticonihtoh ihcuac otonyah tlamachtiloyan?
+
+6. Tleca amo oticonquitzquih in mizton?
+
+7. Tleca oticonilpih in pitzotl?
+
+8. Tleca oticonhuitec in nocnih ihcuac otzahtzic?
+
+9. Aquin omitzoncualanih ihcuac otonhuetz?
+
+10. Canic otonyec ihcuac onitlahtoh?
+
+11. Canin otontlacuah in yehuiptla?
+
+12. Aquin oticonmacac in tlaol yecualcan?
+
+13. Quenman otontlehcoc ipan in calli?
+
+14. Canin oticoncuic in tomin yala?
+
+15. Aquin oticonittac ompa cuentlah?
+
+16. Canin oticonmacac in tlaol in axnoh?
+
+17. Quenman oticononic in pahtli?
+
+18. Quenman oticonnemacac in pitzotl?
+
+19. Aquin oticonte:cac ipan in petlatl?
+
+20. Aquin oticontzac ihtec in cencal?
+
+21. Canin oticonahcic in tomin?
+
+22. Quenman otonahcic tepetl?
+
+23. Canin otonyec ihcuac otontzahtzic?
+
+24. Aquin inahuac otonhuetzcac? pahtli	medicine
+
+oni	drink
+cencal	cornbin
+ahci	find, arrive
+cui	grab
+Answer the above questions.
+
+   Pattern Exercise 24: Honorific Verbs I; second person plural Familiarize yourself with the following sentences by translating them aloud.
+1. Tle:ca onamoncho:caqueh ihcuac onamontlacuahqueh?
+
+2. Canin onamoncochqueh ihcuac onamontequititoh?
+
+3. Canic onamonyahqueh ihcuac onanconquitzquihqueh in pio?
+
+4. Canic onamoncalacqueh ihcuac onamonyahqueh ichan namoconetzin?
+
+5. Tlen onanconihtohqueh ihcuac onamonyahqueh tlamachtiloyan?
+
+6. Tleca amo onanconquitzquihqueh in mizton?
+
+7. Tleca onanconilpihqueh in pitzotl?
+
+8. Tleca onanconhuitecqueh in nocnih ihcuac otzahtzic?
+
+9. Aquin onamechoncualanih ihcuac onamonhuetzqueh?
+
+10. Canic onamonyequeh ihcuac onitlahtoh?
+
+11. Canin onamontlacuahqueh in yehuiptla?
+
+12. Aquin onanconmacaqueh in tlaol yecualcan?
+
+13. Quenman onamontlehcoqueh ipan in calli?
+
+14. Canin onanconcuiqueh in tomin yala?
+
+15. Aquin onanconittaqueh ompa cuentlah?
+
+16. Canin onanconmacaqueh in tlaol in axnoh?
+
+17. Quenman onancononiqueh in pahtli?
+
+18. Quenman onanconnemacaqueh in pitzotl?
+
+19. Aquin onanconte:caqueh ipan in petlatl?
+
+20. Aquin onancontzacqueh ihtec in cencal?
+
+21. Canin onanconahciqueh in tomin?
+
+22. Quenman onamonahciqueh tepetl?
+
+23. Canin onamonyequeh ihcuac onamontzahtziqueh?
+
+24. Aquin inahuac onamonhuetzcaqueh? pahtli	medicine
+
+oni	drink
+cencal	cornbin
+ahci	find, arrive
+cui	grab
+Answer the above questions.
+
+Pattern Exercise 25: Honorific Verbs II; second person singular
+
+You are addressed as a respected person (honorific stage II). Answer the following questions.
+
+1. Otonmotlehcoltih ipan in tepetl?
+
+2. Otonmocho:quilih inahuac in moconetzin?
+
+3. Otonmohuetzquitih nic ohuetz in axno?
+
+4. Otonmahxitilih yecualcan mochantzin?
+
+5. Otonmotzahtzitih ihcuac otonmotectzinoh? [tequi]
+
+6. Otonmocho:quilih nic opolih in mizton?
+
+7. Otonmohuetzquitih nic amo oyectlahtoh in conetl?
+
+8. Otonmotlehcoltih icuacpac in calli?
+
+9. Otonmahxitilih ihcih in cuahtlan?
+
+10. Otonmotzahtzitih ihcuac otonmohuetzitih?
+
+11. Otinechonmahhuilih in yecualcan ihcih?
+
+12. Oticonmocui:lih in tlaxcal ihtec in chiquihuitl?
+
+13. Oticonmi:tih in a:tl ica in xical?  [also: oticonmi:tilih]
+
+14. Oticonmoni:tih in pahtli?	[also: oticonmonitilih]
+
+15. Oticonmottilih quen opanoc in tochtli?
+
+16. Oticonmomaquilih in itlaxcal in nocnih?
+
+17. Oticonmoneltoquitih tlen oquihtoh in nohuelpol?
+
+18. Oticonmonemaquilih in tlaol yehuiptla?
+
+19. Oticonmote:quilih in atol ihtec in comitl?  [te:ca]
+
+20 Oticonmote:quilih in conetl ipan petlatl?
+21. Oticonmotequilih in cuahuitl yehuiptla?	[tequi] yectlahtoa	speak well
+polihui	get lost
+icuacpac	on its top
+ihcih	early
+ihtec	inside it chiquihuitl		big basket
+
+chiqui:/petztli smaller, flat, smooth (palm) basket xical	dipper, gourd for drinking
+te:ca	lay down, pour
+
+Pattern Exercise 26: Honorific Verbs II; second person plural
+
+You are addressed as a member of a respected group of people (honorific stage II). Answer the following questions for the group.
+
+1. Onamonmotlehcoltihqueh ipan in tepetl?
+
+2. Onamonmocho:quilihqueh inahuac in namoconetzin?
+
+3. Onamonmohuetzquitihqueh nic ohuetz in axno?
+
+4. Onamonmahxitilihqueh yecualcan namochantzin?
+
+5. Onamonmotzahtzitihqueh ihcuac onamonmotectzinohqueh? [tequi]
+
+6. Onamonmocho:quilihqueh nic opolih in mizton?
+
+7. Onamonmohuetzquitihqueh nic amo oyectlahtoh in conetl?
+
+8. Onamonmotlehcoltihqueh icuacpac in calli?
+
+9. Onamonmahxitilihqueh ihcih in cuahtlan?
+
+10. Onamonmotzahtzitihqueh ihcuac onamonmohuetzitihqueh?
+
+11. Onannechonmahhuilihqueh in yecualcan ihcih?
+
+12. Onanconmocui:lihqueh in tlaxcal ihtec in chiquihuitl?
+
+13. Onanconmi:tihqueh in a:tl ica in xical?  [also: onanconmi:tilihqueh]
+
+14. Onanconmoni:tihqueh in pahtli?	[also: onanconmonitilihqueh]
+
+15. Onanconmottilihqueh quen opanoc in tochtli?
+
+16. Onanconmomaquilihqueh in itlaxcal in nocnih?
+
+17. Onanconmoneltoquitihqueh tlen oquihtoh in nohuelpol?
+
+18. Onanconmonemaquilihqueh in tlaol yehuiptla?
+
+19. Onanconmote:quilihqueh in atol ihtec in comitl?  [te:ca]
+
+20 Onanconmote:quilihqueh in conetl ipan petlatl?
+21. Onanconmotequilihqueh in cuahuitl yehuiptla?	[tequi] yectlahtoa	speak well
+polihui	get lost
+icuacpac	on its top
+ihcih	early
+ihtec	inside it chiquihuitl		big basket
+
+chiqui:/petztli smaller, flat, smooth (palm) basket xical	dipper, gourd for drinking
+te:ca	lay down, pour
+
+   Pattern Exercise 27: Honorific Verbs I; third person singular You are asked a question about a person of Respect Level I.
+1. Ticmati cox oncalac in motahtzin teopan?
+
+2. Ticmati cox oncoch nochan in mocohcoltzin?
+
+3. Ticmati cox oncualan in notahtzin nic amo onihuallah?
+
+4. Ticmati cox onhuetz in nocihtzin can tlahuehcapan?
+
+5. Ticmati cox onmic in tocohcoltzin ica coco/liztli?
+
+6. Onquiz cuentlah in tlacatzintli?
+
+7. Ontzecuin in mohuehpoltzin ipan tetl?
+
+8. Onmocuep in moahuitzin ipan ohtli?
+
+9. Onmotelquetz in zoatzintli ica in cuahuitl?
+
+10. Omitzonhuitec in motahtzin ica in cui/tlaxtli?
+
+11. Omitzonilnamic in motlahuicaltzin?
+
+12. Omitzonixmat in monantzin can tlayoacan?
+
+13. Omitzonno:tz in momontzin ipan i:lhuih?
+
+14. Omitzontec in moconetzin ica tepoztli?
+
+15. Onechonhuitec in notahtzin yeyala?
+
+16. Onechonilnamic in nocihtzin ihcuac onechonittac?
+
+17. Onechonixmat in moahuitzin ihcuac otimonamicqueh?
+
+18. Onechontec in nocnitzin yeyehua?
+
+19. Onechoncac in notahtzin ihcuac onihuetz?
+
+20. Onechonnamic in monantzin ihcuac oniah?
+
+tlahuehcapan		high or deep place (cliff or ravine) coco/liztli	sickness
+cui/tlaxtli		leather (strap) tlayoacan			dark place yoal	night
+i:lhuih	your fiesta tepoztli		iron, blade, knife yeyala		 yesterday
+yeyehua	a little while ago
+
+
+
+   Pattern Exercise 28: Honorific Verbs I; third person plural You are asked a question about some persons of Respect Level I.
+1. Ticmati cox oncalacqueh in motahtzitzihuan teopan?
+
+2. Ticmati cox oncochqueh nochan in mocohcoltzitzihuan?
+
+3. Ticmati cox oncualanqueh in notahtzitzihuan nic amo onihuallah?
+
+4. Ticmati cox onhuetzqueh in nocihtzitzihuan can tlahuehcapan?
+
+5. Ticmati cox onmicqueh in tocohcoltzitzihuan ica coco/liztli?
+
+6. Onquizqueh cuentlah in tlatlacatzitzin?
+
+7. Ontzecuinqueh in mohuehpoltzitzihuan ipan tetl?
+
+8. Onmocuepqueh in moahuitzitzihuan ipan ohtli?
+
+9. Onmotelquetzqueh in zoatzitzin ica in cuahuitl?
+
+10. Omitzonhuitecqueh in motahtzitzihuan ica in cui/tlaxtli?
+
+11. Omitzonilnamicqueh in moconetzitzihuan?
+
+12. Omitzonixmatqueh in monantzitzihuan can tlayoacan?
+
+13. Omitzonno:tzqueh in momontzitzihuan ipan imi:lhuih?
+
+14. Omitzontecqueh in moconetzitzihuan ica in tepoztli?
+
+15. Onechonhuitecqueh in notahtzitzihuan yeyala?
+
+16. Onechonilnamicqueh in nocihtzitzihuan ihcuac onechonittaqueh?
+
+17. Onechonixmatqueh in moahuitzitzihuan ihcuac otimonamicqueh?
+
+18. Onechontecqueh in nocnitzitzihuan yeyehua?
+
+19. Onechoncacqueh in notahtzitzihuan ihcuac onihuetz?
+
+20. Onechonnamicqueh in monantzitzihuan ihcuac oniah?
+
+tlahuehcapan		high or deep place (cliff or ravine) coco/liztli	sickness
+cui/tlaxtli		leather (strap) tlayoacan			dark place yoal	night
+i:lhuih	your fiesta tepoztli		iron, blade, knife yeyala		 yesterday
+yeyehua	a little while ago
+
+
+
+Pattern Exercise 29: Past Tense Verbs; Imperfect Aspect (singular subject)
+
+The following questions are concerned with what was going on, but was not finished. Note that although the imperfect ending is regularly /-ya/, it superficially seems to be '-a' after verb stems which end in '-i', due to the fact that /iya/ becomes [ia] and /owa/ (i.e. 'ohua') becomes [oa] in the Nahuatl of San Miguel Canoa (as well as in many other dialects).
+
+1. Canin ocalaquia in tlacatl?
+
+2. Quenman ocochia in piltzintli?
+
+3. Canin ocho:caya in zoatl?
+
+4. Aquin ocualania mochan?
+
+5. Aquin ohuetzcaya chicahuac?
+
+6. Canin ohuetzia in atl?
+
+7. Aquin omiquia yeyala?
+
+8. Otipa:quia yehuiptla?
+
+9. Otipi:na:huaya ihcuac otimocuicatih?
+
+10. Yen teh otiqui:zaya nochi in yoal?
+
+11. Otenaya in moconeh?
+
+12. Otlehcoa ipan cuahuitl in mizton?
+
+13. Canin otzahtzia yeyoac in pitzotl?
+
+14. Otzecuinia in conetl icuacpac in calli?
+
+15. Canin ohuetzcaya in monan?
+
+16. Quenman ocualania in mocohcol?
+
+17. Aquin ocho:caya mochan?
+
+18. Aquin ocochia tlalchic?
+
+19. Tlen otlehcoa mopan?
+
+chicahuac	strong, loud mo-cuicatia		sing
+yen teh		(was it) really you? yoal	night
+yeyoac	last night
+
+otlehcoa		he was climbing (irregular imp. of 'tlehco') tlalchic	on the ground
+mopan	on you
+
+Pattern Exercise 30: Past Tense Verbs; Imperfect Aspect (singular subject; transitive verbs)
+
+The following questions are concerned with what was going on, but was not finished. Note that although the imperfect ending is regularly /-ya/, it superficially seems to be '-a' after verb stems which end in '-i', due to the fact that /iya/ becomes [ia] and /owa/ (i.e. 'ohua') becomes [oa] in the Nahuatl of San Miguel Canoa (as well as in many other dialects).
+
+1. Aquin ocaltiaya in mochpoch?
+
+2. Tlen ocanaya in mocohcol?
+
+3. Tlen oticcaquia teopan?
+
+4. Canic omocuepaya in moahui?
+
+5. Aquin ochuitequia in conetl?
+
+6. Aquin oquihcuiloaya in moto:ca?
+
+7. Canin otiquihtlania in a:tl?
+
+8. Aquin oquihtoaya 'quemah'?
+
+9. Canin omihto:tiaya in zoatl?
+
+10. Quenman otiquihtzomaya in mocue?
+
+11. Tlen omitziliaya in momonnan?
+
+12. Aquin omitznamiquia ipan ohtli?
+
+13. Aquin omitzno:no:tzaya mocalihtec?
+
+14. Canin otiaya ihcuac onimitzittac?
+
+15. Canin oticatca ihcuac onimitzno:tz?
+
+16. Canin oticho:caya ihcuac onimitzcac?
+
+17. Aquin ohuetzcaya ihcuac onihuallah?
+
+18. Aquin omihto:tiaya ihcuac onitzahtzic?
+
+19. Aquin otlacuaya ihcuac onicalac?
+
+20. Omitzcualaniaya in mohuehpol icuitlapan teopan?
+
+
+Pattern Exercise 30: Past Tense Verbs; Imperfect Aspect
+
+(singular subject; transitive verbs) [p. 2]
+
+21. Omitztlacualtiaya monantzin calihtec nozo ipan ohtli?
+
+22. Omitzmahtiaya nomontah ihcuac ohuallaya?
+
+23. Omitznenmachtiaya in tlama/chtihqui tlamachtiloyan?
+
+24. Omitzca:huaya ipan ohtli in mozoah?
+
+25. Otinechnenihto:tiaya ihcuac otihuallaya cada ilhuitlan?
+
+26. Otinechilnamiquia ihcuac huehca oticatca?
+
+27. Otinechilpiaya ihcuac onitzahtzia?
+
+28. Otinechcaquia ihcuac onimocuicatiaya?
+
+29. Otinechno:tzaya ihcuac oyaya in pitzotl?
+30. Otinechhuitequia ihcuac amo onite:tla:catocaya? mocalihtec	inside your house
+ichpochtli		daughter, virgin cuicatl	song
+ic ohtli	along the road
+m(o)-ihto:tia dance (with one's self) nozo	or
+nenmachtia	to teach a lot
+-nen-		a lot, much (adverb prefix inside verb) cada	each
+te:-tla:catoca to behave; to obey someone
+
+Pattern Exercise 31: Past Desire
+
+You are asked if you wanted your interlocutor to do something (in the PAST). Answer affirmatively or negatively.
+Model: Q:	Oticnequia onipa:quizquia?
+Ans: Quemah, onicnequia otipa:quizquia.
+
+1. Oticnequia onicochizquia?	8. Oticnequia onipa:quizquia?
+
+2. Oticnequia onicalaquizquia?	9. Oticnequia onihuetzcazquia?
+
+3. Oticnequia oniqui:zazquia?	10. Oticnequia onitlehcozquia?
+
+4. Oticnequia onicuala:nizquia?	11. Oticnequia onitenazquia?
+
+5. Oticnequia onihuetzizquia?	12. Oticnequia onitzecuinizquia?
+
+6. Oticnequia onimiquizquia?	13. Oticnequia onicho:cazquia?
+
+7. Oticnequia onipi:na:huazquia?	14. Oticnequia onitzahtzizquia?
+
+You, as a member of a group, are asked if y'all want your single interlocutor to do something. Answer affirmatively or negatively. Model: Q:	Onanquinequiah onipa:quizquia?
+Ans: Quemah, oticnequiah tipa:quizquia.
+
+1. Onanquinequiah onicochizquia?	8. Onanquinequiah onipa:quizquia?
+
+2. Onanquinequiah onicalaquizquia?	9. Onanquinequiah onihuetzcazquia?
+
+3. Onanquinequiah oniqui:zazquia?	10. Onanquinequiah onitlehcozquia?
+
+4. Onanquinequiah onicuala:nizquia?	11. Onanquinequiah onitenazquia?
+
+5. Onanquinequiah onihuetzizquia?	12. Onanquinequiah onitzecuinizquia?
+
+6. Onanquinequiah onimiquizquia?	13. Onanquinequiah onicho:cazquia?
+
+7. Onanquinequiah onipi:na:huazquia?	14. Onanquinequiah onitzahtzizquia?
+
+Answer the following questions according to whether you are addressed alone or as a member of a group.
+Model: Q: Onanquinequiah onipa:quizquia?
+  Ans: Quemah, oticnequiah otipa:quizquia. Q: Oticnequia onipa:quizquia?
+Ans: Quemah, onicnequia otipa:quizquia.
+
+1. Oticnequia onicochizquia?	7. Onanquinequiah onipi:na:huazquia?
+
+2. Oticnequia onicalaquizquia?	8. Oticnequia onipa:quizquia?
+
+3. Onanquinequiah oniqui:zazquia?	9. Onanquinequiah onihuetzcazquia?
+
+4. Onanquinequiah onicuala:nizquia?  10. Onanquinequiah onitlehcozquia?
+
+5. Oticnequia onihuetzizquia?	11. Oticnequia onitenazquia?
+
+6. Oticnequia onimiquizquia?	12. Oticnequia onitzecuinizquia?
+
+Pattern Exercise 32: Past Desire (future as object; two different subjects)
+
+Answer the following questions either affirmatively or negatively.
+
+1. Oticnequia onicaltizquia in mozoamon?
+
+2. Oticnequia onica:nazquia in tlaxcal?
+
+3. Oticnequia oniccaquizquia in cuicatl?
+
+4. Oticnequia oniccuepazquia in tlaol?
+
+5. Oticnequia onichuitequizquia in mocnih?
+
+6. Ocnequia in motahtzin otiquihcuilozquia in moto:ca?
+
+7. Ocnequia in monantzin otiquihto:zquia 'quemah'?
+
+8. Ocnequia in moahui otiquihtzomazquia in mocue?
+
+9. Ocnequia in mocnih otiquilnamiquizquia in itonaltlacatiliz?
+
+10. Ocnequia in mocohcol otiquilizquia in motlahtlacol?
+
+11. Onanquinequiah oniquilpizquia in namoaxno?
+
+12. Onanquinequiah onicmatizquia canin cah in namohueltih?
+
+13. Onanquinequiah onicnequizquia niconiz in nectli?
+
+14. Onanquinequiah onicno:no:tzazquia in namoconeh?
+
+15. Onanquinequiah onicno:tzazquia in notahtzin?
+
+16. Onicnequia oticpa:cazquia in nocoton?
+
+17. Onicnequia oticca:huazquia in a:tl?
+
+18. Onicnequia oticchihuazquia in tlacual?
+
+19. Onicnequia oticcoazquia in xa:xocotl?
+
+20. Onicnequia otiquilca:huazquia in motomin?
+
+21. Oticnequia onicmelahuazquia in te/poztli?
+
+22. Ocnequia in mocnih oticmehmelahuilizquia in icue?
+
+23. Onanquinequiah oniquittazaquia in nocnih?
+
+24. Onicnequia otitequitizquia nocuentlah?
+
+25. Oticnequia onicmacazquia tzopelic in moconeh?
+
+tonaltlacatiliztli birthday xa:xocotl	guayaba
+
+   Pattern Exercise 33: Conditional sentences; non-hypothetical Answer the following questions either affirmatively or negatively.
+1. In tla timiquiz moztla, cho:caz in monantzin?
+
+2. In tla tihuetzcaz moztla, cualaniz in mocnih?
+
+3. In tla ticholoz huiptla, mitzchoquiliz in motahtzin?
+
+4. In tla tinemiz moztla ihcih, titenaz teotlac?
+
+5. In tla ticalaquiz te:chan, mitzhualquixtiz in chaneh?
+
+6. In tla ticochiz ihcih, mitzehuaz in mocohcoltzin?
+
+7. In tla ticualaniz moztla, mitzahhuaz in motlahuical?
+
+8. In tla nihuetziz cuentlah, tinechahcoquiz?
+
+9. In tla nitlachiaz ic mochan, tinechhualtlahuelittaz?
+
+10. In tla nitlaconiz mochan, ticualaniz?
+
+11. In tla niconiz miec a:tl, tinechtenehuiliz?
+
+12. In tla nictemitiz in comitl, tzayaniz?
+
+13. In tla tlacatizqueh yoac in pitzomeh, cecmiquizqueh?
+
+14. In tla pozoniz in a:tl totoca, nonoquihuiz?
+
+15. In tla pa:quizqueh in coconeh, tiquinahhuaz?
+
+16. In tla tlaconizqueh in mohuehpolhuan, ticualaniz?
+17. In tla cholozqueh in pitzomeh, tiquintemotih? tla	if
+teotlac	afternoon, evening (more or less 3:00-dark) chaneh		house owner
+ahcoqui	lift up
+tlahuelitta		give an angry look, a dirty look tlaconi	drink (something alcoholic)
+oni	drink (object not assumed) tenehuilia (b.) remind, reproach, criticize
+(of a past favor or harm)
+temitia	fill up
+tzayani	split
+cecmiqui		 die of cold tlacati	be born no:quihui		it spills nicno:quia			I spill it
+
+nohno:quihui		it spills (all at once, pot turns over) nono:quihui	it spills (continuously, boiling)
+
+   Pattern Exercise 34: Conditional sentences; hypothetical Answer the following questions either affirmatively or negatively.
+1. In tla otimiquizquia moztla, ocho:cazquia in monantzin?
+
+2. In tla otihuetzcazquia moztla, ocualanizquia in mocnih?
+
+3. In tla oticholozquia huiptla, omitzchoquilizquia in motahtzin?
+
+4. In tla otinemizquia moztla ihcih, otitenazquia tiotlac?
+
+5. In tla oticalaquizquia te:chan, omitzhualquixtizquia in chaneh?
+
+6. In tla oticochizquia ihcih, omitzehuazquia in mocohcoltzin?
+
+7. In tla oticualanizquia moztla, omitzahhuazquia in motlahuical?
+
+8. In tla onihuetzizquia cuentlah, otinechahcoquizquia?
+
+9. In tla onitlachiazquia ic mochan, otinechhualtlahuelittazquia?
+
+10. In tla onitlaconizquia mochan, oticualanizquia?
+
+11. In tla oniconizquia miec a:tl, otinechtenehuilizquia?
+
+12. In tla onictemitizquia in comitl, otzayanizquia?
+
+13. In tla otlacatizquiah yoac in pitzomeh, ocecmiquizquiah?
+
+14. In tla opozonizquia in a:tl totoca, ononoquihuizquia?
+
+15. In tla opa:quizquiah in coconeh, otiquinahhuazquia?
+
+16. In tla otlaconizquiah in mohuehpolhuan, oticualanizquia?
+17. In tla ocholozquiah in pitzomeh, otiquintemozquia? tla	if
+tiotlac	afternoon, evening (more or less 3:00-dark) chaneh		house owner
+ahcoqui	lift up
+tlahuelitta		give an angry look, a dirty look tlaconi	drink (something alcoholic)
+oni	drink (object not assumed) tenehuilia (b.) remind, reproach, criticize
+(of a past favor or harm)
+temitia	fill up
+tzayani	split
+cecmiqui		 die of cold tlacati	be born no:quihui		it spills nicno:quia			I spill it
+
+nohno:quihui		it spills (all at once, pot turns over) nono:quihui	it spills (continuously, boiling)
+
+Pattern Exercise 35: Commands: Regular and irregular verbs
+
+Your interlocutor tells you that he (or he and his group) do not want to do something. Tell him (or them) to do it.
+
+A. Reply to the following cues without respect (i.e., no honorific).
+
+1. Amo nicnequi niaz in teopan.
+
+2. Amo nicnequi nihuitz tlamachtiloyan.
+
+3. Amo nicnequi niez monahuac.
+
+4. Amo nicnequi nichualicaz in cuahuitl.
+
+5. Amo ticnequih tiazqueh tlacualoyan.
+
+6. Amo ticnequih tiezqueh temazcal.
+
+7. Amo ticnequih tihuallazqueh mochan.
+
+8. Amo ticnequih tichualicazqueh in motahtzin.
+
+
+B. Reply to the following cues with Honorific I (i.e. parent level).
+
+9. Amo nicnequi niez inahuac in monantzin.
+
+10. Amo nicnequi niaz nitequititih.
+
+11. Amo nicnequi nihuitz mochan.
+
+12. Amo nicnequi nichualicaz in ichcatl.
+
+13. Amo ticnequih tihuallazqueh ipan axno.
+
+14. Amo ticnequih tiezqueh mocal ihtec.
+
+15. Amo ticnequih tiazqueh cuahtlan.
+
+16. Amo ticnequih tichualicazqueh in huehxolotl.
+
+
+C. Reply to the following cues with Hon. II (i.e. grandparent level).
+
+17. Amo nicnequi nichualicaz in mocax.
+
+18. Amo nicnequi niez icuacpac in calli.
+
+19. Amo nicnequi niaz ichan momontah.
+
+20. Amo nicnequi nihuitz inahuac in mochahuanan.
+
+Pattern Exercise 35: Commands: Regular and irregular verbs [p. 2]
+
+21. Amo ticnequih tiazqueh ilhuitlan.
+
+22. Amo ticnequih tihuallazqueh nenamictiloyan.
+
+23. Amo ticnequih tiezqueh ipan ohtli.
+
+24. Amo ticnequih tichualicazqueh in tequihuah.
+
+
+-H.	H. I	H. II
+Go
+Singular: xiah		xonyah	xonmuica Plural:	xiacan	xonyacan		xonmuicacan
+
+Come
+Singular: xihui:qui	xonhui:qui	xonhualmuica Plural:	xihui:quican		xonhui:quican		xonhualmuicacan
+
+Be
+Singular: xie	xonye	xonmetztie Plural:	xiecan		xonyecan		xonmetztiecan
+
+Bring
+Singular: xichualica	xiconhualica	xiconhualmuiquili Plural:	xichualicacan		xiconhualicacan xiconhualmuiquilican
+
+tlacualoyan		eating place (i.e. a party) ichahuanan			his foster mother itlacpatah	his foster father
+icuacpac	on top of
+ilhuitlan	party place, fair nenamictiloyan			place of marriage nenamicti/liztli		marriage ceremony nehto:tiloyan		place of dance
+tequihuah	man of authority  [tequitl-huah]
+
+Pattern Exercise 36: Future and Past of verbs with -hua and -hui
+
+You are asked if someone (maybe you) is going to do something. You answer that the person asked about (maybe you) already did it.
+Cue: Ticchihuaz in tlacual? Ans: Yonicchih yecualcan.
+
+Note that when the final vowel is lost, the then final /w/ ('hu') becomes /h/.
+
+1. Ticchihuaz in tlacual?
+
+2. Ticca:huaz in mocue nochan?
+
+3. Tiquilca:huaz in mozoah?
+
+4. Ticmelahuaz in ohtli?
+
+5. Tipinahuaz axan?
+
+6. Tictelahuaz in molpica?
+
+7. Tiquehuaz in moconeh?
+
+8. Nictenehuaz in notlazoh?
+
+9. Nicpatlahuaz in tzotzo/mahtli?
+
+10. Nicpetlahuaz in co/coxqui?
+
+11. Nictlaxtlahuaz in monec?
+
+12. Nictopehuaz in comitl?
+
+13. Nipehuaz axan?
+
+14. Quicoaz tzopelic in mocnih?
+
+15. Amo nitlachia. Ye tlayoaz?
+
+16. Polihuiz in axno?
+
+17. Xe:lihuiz in apaztli?
+
+18. Nanquichihuazqueh in tlacual?
+
+19. Nanquinca:huazqueh in namocuehuan nochan?
+
+20. Nanquinilca:huazqueh in namozoahuan?
+
+21. Nanquimelahuazqueh in ohtli?
+
+22. Nanpinahuazqueh axan?
+
+23. Nanquintelahuazqueh in namolpicahuan?
+
+24. Nanquinehuazqueh in namoconehuan?
+
+
+Pattern Exercise 36: Future and Past of verbs with -hua and -hui
+
+25. Tiquintenehuazqueh in totlazohhuan?
+
+26. Ticpatlahuazqueh in tzotzo/mahtli?
+
+27. Ticpetlahuazqueh in co/coxqui?
+
+28. Tictlaxtlahuazqueh in namonec?
+
+29. Tictopehuazqueh in comitl?
+
+30. Tipehuazqueh axan?
+
+31. Quicoazqueh tzopelic in mocnihuan?
+
+32. Amo titlachiah. Ye tlayoaz?
+
+33. Polihuizqueh in axnohtin?
+
+34. Xe:lihuizqueh in a/hpaztin?
+
+yecualcan		in the (this) morning yeyehua	a little while ago melahua	 straighten
+telahua	make thick
+molpica	 your belt [absolutive: ilpicatl] petlahua	uncover, bare
+co/coxqui				sick person topehua		shove tlaxtlahua		 pay for tzotzo/mahtli cloth patlahua		widen, spread co(hua)a		 buy tlayo(hu)a			get dark xe:lihui	split, break
+    ahpaztli	bowl Nicpatlahuaz in tzotzo/mahtli?
+
+Nicpetlahuaz in co/coxqui? Nictlaxtlahuaz in monec? Nictopehuaz in comitl?
+Nipehuaz axan?
+
+Quicoaz tzopelic in mocnih?
+
+Amo nitlachia. Ye tlayoaz? Polihuiz in axno?
+Xe:lihuiz in apaztli?
+
+Pattern Exercise 37: Reflexive verbs: Honorific I and II (second person, singular and plural)
+
+Honorific I: answer the following questions.
+
+1. Aquin inahuac tonma:ltia temazcal?
+
+2. Tonmotemaz ihcih cualcan?
+
+3. Tonmoca:huaz mochantzin?
+
+4. Canin tonmocuepaz ic tochan?
+
+5. Quenman tonmehuaz yetlahcah?
+
+6. Aquin inahuac tonmotelquetzaz?
+
+7. Aquin ichan tonmote:caz moztla?
+
+8. Tlen ipan tonmotlaliz cualcan?
+
+9. Aquin inahuac namonma:ltiah temazcal?
+
+10. Namonmotemazqueh ihcih cualcan?
+
+11. Namonmoca:huazqueh namochantzin?
+
+12. Canin namonmocuepazqueh ic tochan?
+
+13. Quenman namonmehuazqueh yetlahcah?
+
+14. Aquin inahuac namonmotelquetzazqueh?
+
+15. Aquin ichan namonmote:cazqueh moztla?
+
+16. Tlen ipan namonmotlalizqueh cualcan?
+
+
+Honorific II.
+
+1. Aquin inahuac tonma:ltihtzinoa temazcal?
+
+2. Tonmotentzinoz ihcih cualcan?
+
+3. Tonmoca:htzinoz mochantzin?
+
+4. Canin tonmocueptzinoz ic tochan?
+
+5. Quenman tonmehtzinoz yetlahcah?
+
+6. Aquin inahuac tonmotelquetztzinoz?
+
+7. Aquin ichan tonmote:catzinoz moztla?
+
+Pattern Exercise 37: Reflexive verbs: Honorific I and II (second person, singular and plural) [p. 2]
+
+8. Tlen ipan tonmotlalihtzinoz cualcan?
+
+9. Aquin inahuac namonma:ltihtzinoah temazcal?
+
+10. Namonmotentzinozqueh ihcih cualcan?
+
+11. Namonmoca:htzinozqueh namochantzin?
+
+12. Canin namonmocueptzinozqueh ic tochan?
+
+13. Quenman namonmehtzinozqueh yetlahcah?
+
+14. Aquin inahuac namonmotelquetztzinozqueh?
+
+15. Aquin ichan namonmote:catzinozqueh moztla?
+
+16. Tlen ipan namonmotlalihtzinozqueh cualcan?
+
+tlahcah	in the daytime (more or less 9 a.m.-noon) yetlahcah		already in the daytime

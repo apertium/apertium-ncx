@@ -5,7 +5,9 @@ Alphabet
  %{i%}:i %{i%}:0
  %{m%}:m %{m%}:0 
  %{M%}:m %{M%}:n 
+ %{n%}:n %{n%}:m
  %{y%}:y %{y%}:x
+ %{u%}:u %{u%}:h
  %>:%> ;
 
 
@@ -38,6 +40,13 @@ Rules
 ! "in -> inmi pt II"
 ! %{i%}:0 <=> i n %{m%}: _ %>: Cns ;
 
+"m -> n everywhere except before vowel or p in 3pl possessive"
+%{n%}:m <=> _ %> [Vow | p | .#.] ;
+
+"second m->n"
+%{n%}:n <=> _ %> [n | t ] ;
+
+
 "m -> n word final and before t"
 %{M%}:n <=> _ %>: [Vow | Cns - p | .#.] ;
 
@@ -45,13 +54,19 @@ Rules
 %{M%}:m <=> _ %>: p ;
 
 "archiphoneme i -> 0 when followed by a V"
-%{i%}:0 <=>  _ %>: Vow ;
-
-"archiphoneme i -> i when followed by a C"
-%{i%}:i <=> [ n | t ] _ %>: Cns ;
+%{i%}:0 <=>  _ %>: [a | o | e | i] ;
 
 "i -> 0 in /k/ between V and C"
-%{i%}:0 <=> [a | e | %{i%}:i] %>: k _ %>: Cns ;
+%{i%}:0 <=> [a | e | %{i%}:i] %>: k _ %>: [Cns | u ] ;
+
+"/w/ se debilita y se aspira totalmente a final de sílaba y palabra (flores-nájera)"
+%{u%}:h <=> _ [.#. | %>: Cns] ;
+
+"otherwise /w/ is just u"
+%{u%}:u <=> _ [Vow | %>: Vow] ;
+
+! "archiphoneme i -> i when followed by a C"
+! %{i%}:i <=> [ n | t ] _ %>: [Cns | u] ;
 
 ! "i -> i in /k/ otherwise"
 ! %{i%}:i <=> [Cns | .#. | o] %>:? [k|t|n] _ %>: Cns ;
@@ -62,3 +77,9 @@ Rules
 "{y}->y elsewhere"
 %{y%}:y <=> _ Vow ;
 
+!
+! tikualika
+! okiuala
+!
+!
+!

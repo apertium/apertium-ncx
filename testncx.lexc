@@ -1,0 +1,667 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Multichar_Symbols
+
+%<n%>                                    ! Sustantivo
+%<v%>                                    ! Verbo
+%<adj%>                                  ! Adjetivo
+%<det%>                                  ! Determinante
+%<num%>                                  ! Número
+%<prn%>                                  ! Pronombre
+%<adv%>                                  ! Adverbio
+%<np%>                                   ! Nombre propio
+%<cnjsub%>                               ! Coordinación subordinada
+
+%<pr%>                                   ! Preposición
+
+%<tv%>                                   ! Transitivo
+%<tv2%>                                  ! Bitransitivo
+%<iv%>                                   ! Intransitivo
+
+%<pl%>                                   ! Plural
+%<sg%>                                   ! Singular
+
+%<abs%>                                  ! Absolutivo
+
+%<loc%>                                  ! Locativo
+
+%<top%>                                  ! Topónimo
+
+%<pro%>                                  ! Pronombre proclítico
+%<pers%>                                 ! Personal, forma larga
+
+%<dim%>                                  ! Diminutivo
+
+%<hon%>                                  ! Honorifico
+
+%<barb%>                                 ! Barbarismo (español)
+
+
+%<pres%>   ! tiempo presente
+%<pret%>   ! pretérito
+%<perf%>   ! perfectivo
+%<impf%>   ! imperfectivo
+%<fut%>    ! futuro
+%<plu%>    ! pluscuamperfecto
+%<opt%>    ! optativo
+%<pst%>    ! pasado
+%<dur%>    ! aspecto durativo
+
+%<p1%>
+%<p2%>
+%<p3%>
+
+%<px1sg%>                                ! Posesivo (1ra singular)
+%<px2sg%>
+%<px3sg%>
+%<px1pl%>
+%<px2pl%>
+%<px3pl%>
+%<px_nn%>				 ! "te-"
+
+%<s_sg1%>                                ! Marcador de sujeto (1ra singular)
+%<s_sg2%>                                ! Marcador de sujeto (2da singular)
+%<s_sg3%>
+%<s_pl1%>
+%<s_pl2%>
+%<s_pl3%>
+
+%<o_sg1%>                               ! Marcador de objeto directo (1ra singular)
+%<o_sg2%>                               ! Marcador de objeto directo (2da singular)
+%<o_sg3%>
+%<o_pl1%>
+%<o_pl2%>
+%<o_pl3%>
+
+%<i_sg1%>                               ! Marcador de objeto indirecto (1ra singular)
+%<i_sg2%>                               ! Marcador de objeto indirecto (2da singular)
+%<i_sg3%>
+%<i_pl1%>
+%<i_pl2%>
+%<i_pl3%>
+
+%<o_aa3%>
+%<o_nn3%>
+
+%<ven%>                           ! direccional hacia el locutor
+%<and%>				  ! direccional no hacia el locutor
+
+%<afirm%>
+%<ant%>
+%<appl%>
+%<aux%>
+%<cfact%>
+%<cni%>
+%<cm%>
+%<cnjcoo%>
+%<f%>
+%<guio%>
+%<ij%>
+%<lpar%>
+%<lquest%>
+%<lquot%>
+%<m%>
+%<neg%>
+%<o_sg3_om%>
+%<part%>
+%<refl%>
+%<rel%>
+%<rpar%>
+%<rquot%>
+%<bien%>
+%<juntos%>
+%<completamente%>
+%<prx%>  ! Proximal ʼthisʼ
+%<med%>  ! Medial "that"
+%<dst%>  ! Distal "that (over there)"
+
+%<sent%>                                 ! Final de frase
+
+%{o%}                                    ! o 
+%{i%}                                    ! i / 0
+%{e%}                                    ! e / 0
+%{h%}                                    ! h / u
+%{u%}                                    ! u / h
+%{H%}
+%{m%}                                    ! m / 0
+%{M%}                                    ! m / n
+%{q%}
+%{c%}
+%{s%}                                    ! para plural español
+%{z%}                                    ! z/c
+%{e%}
+%{%@%}                                   ! para terminaciones -o y -a en sustantivos y/o adjetivos
+%{y%}					 ! y/x (ej pretérito de piya)
+%>                                       ! Frontera de morfema
+
+
+@P.SubjPl.1@
+@R.SubjPl.1@
+@D.SubjPl@
+
+@P.IsPast.1@
+@R.IsPast.1@
+@D.IsPast@
+
+@P.Opt.1@
+@R.Opt@
+@D.Opt@
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Nominal ;
+Aumento ;
+
+!Determinantes ;
+!Numerales ; 
+!Propios ;
+!Adverbios ;
+!Preposiciones ;
+!Puntuación ;
+!Interjecciones ; 
+!Verb ;
+! Digits ;
+
+
+
+LEXICON Nominal
+
+Pronombre ;
+SujetoNominal ;
+
+LEXICON Pronombre
+
+PronombrePersonal ;
+PronombreDemonstrativo ;
+
+
+LEXICON PronombrePersonal
+
+! Singular
+nejuatl%<prn%>%<pro%>%<p1%>%<sg%>:ne # ;
+nejuatl%<prn%>%<pers%>%<p1%>%<sg%>:nejuatl # ;
+tejuatl%<prn%>%<pro%>%<p2%>%<sg%>:te # ;
+tejuatl%<prn%>%<pers%>%<p2%>%<sg%>:tejuatl # ;
+yejuatl%<prn%>%<pro%>%<p3%>%<sg%>:ye # ;
+yejuatl%<prn%>%<pers%>%<p3%>%<sg%>:yejuatl # ;
+
+! Plural
+tejuan%<prn%>%<pers%>%<p1%>%<pl%>:tejuan # ;
+namejuan%<prn%>%<pers%>%<p2%>%<pl%>:namejuan # ;
+yejuan%<prn%>%<pers%>%<p3%>%<pl%>:yejuan # ;
+
+LEXICON PronombreDemonstrativo
+nin%<prn%>%<prx%>:nin # ; ! "esto"
+nin%<prn%>%<prx%>%<pl%>:nin%>mej # ; ! "estos"
+
+non%<prn%>%<med%>:non # ; ! "eso"
+non%<prn%>%<med%>%<pl%>:non%>mej # ; ! "esos"
+
+neka%<prn%>%<dst%>:neka # ; ! "aquello"
+neka%<prn%>%<dst%>%<pl%>:nekatej # ; ! "aquellos"
+
+
+LEXICON SujetoNominal
+
+%<s_sg1%>:ni%>  PrefijoPosesivo ;
+%<s_sg2%>:ti%>  PrefijoPosesivo ;
+%<s_sg3%>:0     PrefijoPosesivo ;
+@P.SubjPl.1@%<s_pl1%>:@P.SubjPl.1@ti%>  PrefijoPosesivo ; ! [P Plural Subj]
+@P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@nan%> PrefijoPosesivo ; ! [P Plural Subj]
+@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0     PrefijoPosesivo ; ! [P Plural Subj]
+
+
+LEXICON PrefijoPosesivo
+Sustantivo ;
+%<px1sg%>:no%> Sustantivo ;
+%<px2sg%>:mo%> Sustantivo ;
+%<px3sg%>:i%> Sustantivo ;
+%<px1pl%>:to%> Sustantivo ;
+%<px2pl%>:namo%> Sustantivo ;
+%<px3pl%>:in%{m%}%{i%}%> Sustantivo ;
+
+%<px_nn%>:te Sustantivo ; ! Todo: figure out correct tag
+
+LEXICON PluralNominal
+%<abs%>%<pl%>:%>mej # ;
+%<pl%>:%>uan        # ;
+
+LEXICON TratoFamiliar
+%<dim%>:%>tsin # ;
+%<dim%>:%>tsin%>tli # ;
+%<dim%>%<pl%>:%>tsi%>tsin # ;
+%<dim%>%<pl%>:%>tsin%>uan # ; ! poseído
+
+
+LEXICON TL
+%<abs%>%<sg%>:%>tl # ;
+%<sg%>:0 # ; ! poseído TODO: flag diacritics ftw
+TratoFamiliar ;
+PluralNominal ;
+
+LEXICON TLI
+%<abs%>%<sg%>:%>tli # ;
+%<sg%>:0 # ;
+TratoFamiliar ;
+PluralNominal ;
+
+LEXICON LI
+%<abs%>%<sg%>:%>i # ;
+%<sg%>:0 # ;
+TratoFamiliar ;
+PluralNominal ;
+
+LEXICON NA
+%<sg%>:0 # ;
+TratoFamiliar ;
+PluralNominal ;
+
+LEXICON Sustantivo
+axka%<n%>:axka NA; ! "partícula posesiva"
+
+tlaxkali%<n%>:tlaxkal LI ; ! "tortilla"
+
+askatl%<n%>:aska      TL ; ! "hormiga"
+altepetl%<n%>:altepe	 TL ; ! "pueblo"
+
+
+tixtli%<n%>:tix	 TLI ; ! "masa"
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Aumento
+
+@P.IsPast.1@:@P.IsPast.1@o%> SujetoVerbal ; ! [P Past]
+SujetoVerbal ;
+
+
+LEXICON SujetoVerbal
+
+%<s_sg1%>:ni%>    SujetoCont ;
+@P.Opt.1@%<s_sg1%>:@P.Opt.1@ni%>    SujetoCont ; ! [P Optative]
+
+%<s_sg2%>:ti%>    SujetoCont ;
+%<s_sg3%>:0%>     SujetoCont ;
+@P.Opt.1@%<s_sg3%>:@P.Opt.1@0%>     SujetoCont ; ! [P Optative]
+
+@P.SubjPl.1@%<s_pl1%>:@P.SubjPl.1@ti%>    SujetoCont ; ! [P Plural Subj]
+@P.Opt.1@%<s_pl1%>:@P.Opt.1@ti%>    SujetoCont ; ! [P Plural Subj] [P Optative]
+
+@P.SubjPl.1@%<s_pl2%>:@P.SubjPl.1@nan%>   SujetoCont ; ! [P Plural Subj]
+@P.SubjPl.1@%<s_pl3%>:@P.SubjPl.1@0%>     SujetoCont ; ! [P Plural Subj]
+@P.Opt.1@%<s_pl3%>:@P.Opt.1@0%>     SujetoCont ; ! [P Plural Subj] [P Optative]
+
+@P.Opt.1@%<s_sg2%>:@P.Opt.1@xi%>    SujetoCont ; ! [P Optative]
+@P.Opt.1@%<s_pl2%>:@P.Opt.1@xi%>    SujetoCont ; ! [P Plural Subj] [P Optative]
+
+
+LEXICON SujetoCont
+IV-Dir ;
+Objeto ;
+
+LEXICON Objeto
+DV-IO ;
+TV-Dir ;
+DV-Dir ;
+%<o_sg1%>:nech%>    TV-Dir ;
+%<o_sg2%>:mits%>    TV-Dir ;
+%<o_sg3%>:k%{i%}%>  TV-Dir ;
+%<o_pl1%>:tech%>    TV-Dir ;
+%<o_pl2%>:mech%>    TV-Dir ;
+%<o_pl2%>:namech%>  TV-Dir ; ! con sujeto de tercera persona.
+%<o_pl3%>:ki%{m%}%> TV-Dir ;
+
+LEXICON DV-IO
+%<i_sg1%>:nech%>    DV-O ;
+%<i_sg2%>:mits%>    DV-O ;
+%<i_sg3%>:k%{i%}%>  DV-O ;
+%<i_pl1%>:tech%>    DV-O ;
+%<i_pl2%>:mech%>    DV-O ;
+%<i_pl2%>:namech%>  DV-O ; ! con sujeto de tercera persona.
+%<i_pl3%>:ki%{m%}%> DV-O ;
+
+LEXICON IV-Dir
+%<and%>:on IV-Adv ;
+%<ven%>:ual IV-Adv ;
+IV-Adv ;
+
+LEXICON TV-Dir
+%<and%>:on TV-Refl ;
+%<ven%>:ual TV-Refl ;
+TV-Refl ;
+
+LEXICON DV-O
+! for direct obj "im-" ... is this a thing in ncx?
+DV-Dir ;
+
+
+LEXICON DV-Dir
+%<and%>:on DV-Refl ;
+%<ven%>:ual DV-Refl ;
+DV-Refl ;
+
+LEXICON TV-Refl
+%<refl%>:mo%>  TV-Adv ;
+TV-Adv ;
+
+
+LEXICON DV-Refl
+%<refl%>:mo%>  DV-Adv ;
+DV-Adv ;
+
+!TODO: resolver dudas sobre la posicón y función de te- y tla- en ncx
+LEXICON TV-Te
+%<o_aa3%>:te%> TV-Raiz ;
+TV-Raiz ;
+
+LEXICON DV-Te
+%<o_aa3%>:te%> DV-Raiz ;
+
+LEXICON TV-Tla
+%<o_nn3%>:tla%> TV-Raiz ;
+
+LEXICON DV-Tla
+%<o_nn3%>:tla%> DV-Raiz ;
+
+LEXICON Te-Tla
+%<i_aa3%>%<o_nn3%>:te%>tla%> DV-Raiz ;
+
+
+LEXICON IV-Adv
+%<nan%>:yek IV-Raiz ;
+%<nan%>:sen IV-Raiz ;
+! ...etc.
+IV-Raiz ;
+
+LEXICON TV-Adv
+%<nan%>:yek TV-Adv-Cont ;
+%<nan%>:sen TV-Adv-Cont ;
+! ...etc.
+TV-Adv-Cont ;
+
+LEXICON TV-Adv-Cont
+TV-Tla ;
+TV-Te ;
+TV-Raiz ;
+
+LEXICON DV-Adv
+%<nan%>:yek DV-Adv-Cont ;
+%<nan%>:sen DV-Adv-Cont ;
+! ...etc.
+DV-Adv-Cont ;
+
+LEXICON DV-Adv-Cont
+Te-Tla  ;
+DV-Te   ;
+DV-Tla  ;
+DV-Raiz ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Agr-Pl-Past
+@D.Opt@:@D.Opt@ # ; ! [R Plural Subj] [R Past] [D Optative]
+
+LEXICON Agr-Sg-Past
+@D.Opt@:@D.Opt@ # ; ! [D Plural Subj] [R Past] [D Optative]
+
+LEXICON Agr-Pl-Nonpast
+@D.Opt@:@D.Opt@ # ; ! [R Plural Subj] [D Past] [D Optative]
+
+LEXICON Agr-Sg-Nonpast
+@D.Opt@:@D.Opt@ # ; ! [D Plural Subj] [D Past] [D Optative]
+
+LEXICON Agr-Sg-Opt
+@R.Opt@:@R.Opt@ # ; ! [D Plural Subj] [R Optative]
+
+LEXICON Agr-Pl-Opt
+@R.Opt@:@R.Opt@ # ; ! [R Plural Subj] [R Optative]
+
+
+LEXICON Purposive ! en spanish?
+%<aux%>:%>ti Agr-Sg-Nonpast ;
+%<aux%>:%>to Agr-Sg-Nonpast ;
+%<aux%>%<pret%>:%>ki Agr-Sg-Past ;
+%<aux%>%<pret%>:%>ko Agr-Sg-Past ;
+%<aux%>:%>ti%>j Agr-Pl-Nonpast ;
+%<aux%>:%>to%>j Agr-Pl-Nonpast ;
+%<aux%>%<pret%>:%>ki%>j Agr-Pl-Past ;
+%<aux%>%<pret%>:%>ko%>j Agr-Pl-Past ;
+
+LEXICON TAM-Clase1
+%<pres%>:0 Agr-Sg-Nonpast ;
+%<pres%>:%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:%>k Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:%>ya Agr-Sg-Past ;
+%<impf%>:%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
+:%>s Neki-Aux ;
+
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:0 Agr-Sg-Opt ;
+%<opt%>:%>kan Agr-Pl-Opt ;
+
+SufijoAuxiliar ;
+
+
+LEXICON TAM-Clase1-ita
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:a%>k Agr-Sg-Past ;
+%<pret%>:a%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:a%>s Agr-Sg-Nonpast ;
+:%>s Neki-Aux ;
+%<fut%>:a%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:s%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:s%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:s%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:s%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:s%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:s%>to%>s%>kej Agr-Pl-Nonpast ;
+:%>s SufijoAuxiliar ;
+
+%<opt%>:a%> Agr-Sg-Opt ;
+%<opt%>:a%>kan Agr-Pl-Opt ;
+
+
+LEXICON TAM-Clase2-a
+
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:a%>s Agr-Sg-Nonpast ;
+a%>s Neki-Aux ;
+%<fut%>:a%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:a%> Agr-Sg-Opt ;
+%<opt%>:a%>kan Agr-Pl-Opt ;
+
+SufijoAuxiliar ;
+
+LEXICON TAM-Clase2-i
+%<pres%>:i Agr-Sg-Nonpast ;
+%<pres%>:i%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:%>kej Agr-Pl-Past ;
+%<impf%>:i%>ya Agr-Sg-Past ;
+%<impf%>:i%>ya%>j Agr-Pl-Past ;
+%<fut%>:i%>s Agr-Sg-Nonpast ;
+i%>s Neki-Aux ;
+%<fut%>:i%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:i%> Agr-Sg-Opt ;
+%<opt%>:i%>kan Agr-Pl-Opt ;
+
+SufijoAuxiliar ;
+
+
+LEXICON TAM-Clase3
+%<pres%>:a Agr-Sg-Nonpast ;
+%<pres%>:a%>j Agr-Pl-Nonpast ; ! TODO: flag diacritics for plural subj
+%<pret%>:0 Agr-Sg-Past ;
+%<pret%>:j%>kej Agr-Pl-Past ;
+%<impf%>:a%>ya Agr-Sg-Past ;
+%<impf%>:a%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
+:%>s Neki-Aux ;
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:j%>to%>k Agr-Sg-Nonpast;
+%<pres%>%<dur%>:j%>to%>k%>ej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:j%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:j%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:j%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:j%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:%> Agr-Sg-Opt ;
+%<opt%>:%>kan Agr-Pl-Opt ;
+
+
+SufijoAuxiliar ;
+
+
+LEXICON TAM-Clase4
+%<pres%>:0 Agr-Sg-Nonpast ;
+%<pres%>:%>j Agr-Pl-Nonpast ;
+%<pret%>: Agr-Sg-Past ;
+%<pret%>:%>j%>kej Agr-Pl-Past ;
+%<impf%>:%>ya Agr-Sg-Past ;
+%<impf%>:%>ya%>j Agr-Pl-Past ;
+%<fut%>:%>s Agr-Sg-Nonpast ;
+%>s Neki-Aux ;
+%<fut%>:%>s%>kej Agr-Pl-Nonpast ;
+%<pres%>%<dur%>:j%>to%>k Agr-Sg-Nonpast ;
+%<pres%>%<dur%>:j%>to%>kej Agr-Pl-Nonpast ;
+%<impf%>%<dur%>:j%>to%>ya Agr-Sg-Past ;
+%<impf%>%<dur%>:j%>to%>ya%>j Agr-Pl-Past ;
+%<fut%>%<dur%>:j%>to%>s Agr-Sg-Nonpast ;
+%<fut%>%<dur%>:j%>to%>s%>kej Agr-Pl-Nonpast ;
+
+%<opt%>:%> Agr-Sg-Opt ;
+%<opt%>:%>kan Agr-Pl-Opt ;
+
+SufijoAuxiliar ;
+
+LEXICON SufijoAuxiliar
+Tinemi-Aux ;
+Tijtia-Aux ;
+Tiuits-Aux ;
+Purposive ;
+
+LEXICON Tinemi-Aux
+%<aux%>%<pres%>%+nemi:%>ti%>nemi Agr-Sg-Nonpast ;
+%<aux%>%<impf%>:%>ti%>nemi%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>:%>ti%>nemi%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>:%>ti%>nemi%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>:%>ti%>nemi%>s%>kej Agr-Pl-Nonpast ;
+%<aux%>%<pres%>%<dur%>:%>ti%>nen%>to%>k Agr-Sg-Nonpast ;
+%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>%<dur%>:%>ti%>nen%>to%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>%<dur%>:%>ti%>nen%>to%>s%>kej Agr-Pl-Nonpast ;
+
+LEXICON Tijtia-Aux
+%<aux%>%<pres%>:%>ti%>jtia Agr-Sg-Nonpast ;
+%<aux%>%<pres%>:%>ti%>jtia%>j Agr-Pl-Nonpast ;
+%<aux%>%<impf%>:%>ti%>jtia%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>:%>ti%>jtia%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>:%>ti%>jti%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>:%>ti%>jti%>s%>kej Agr-Pl-Nonpast ;
+%<aux%>%<pres%>%<dur%>:%>ti%>jti%>to%>k Agr-Sg-Nonpast ;
+%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya Agr-Sg-Past ;
+%<aux%>%<impf%>%<dur%>:%>ti%>jti%>to%>ya%>j Agr-Pl-Past ;
+%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s Agr-Sg-Nonpast ;
+%<aux%>%<fut%>%<dur%>:%>ti%>jti%>to%>s%>kej Agr-Pl-Nonpast ;
+
+LEXICON Tiuits-Aux
+%<aux%>%<pres%>:%>ti%>uits Agr-Sg-Nonpast ;
+! TODO: figure out the rest of these (TAM)
+
+LEXICON Neki-Aux
+%<aux%>+neki:%>neki Agr-Sg-Nonpast ;
+%<aux%>+neki:%>neki%>j Agr-Pl-Nonpast ;
+
+
+LEXICON IV-Raiz
+
+palti%<iv%>:palti          TAM-Clase1 ; ! "mojarse"
+
+
+nejnemi%<iv%>:nejne%{M%}   TAM-Clase2-i ;
+kochi%<iv%>:koch           TAM-Clase2-i ;
+kalaki%<iv%>:kalak         TAM-Clase2-i ;
+uetsi%<iv%>:uets           TAM-Clase2-i ;
+miki%<iv%>:mik             TAM-Clase2-i ;
+patlani%<iv%>:patlan       TAM-Clase2-i ;
+nemi%<iv%>:ne%{m%}         TAM-Clase2-i ;
+kisa%<iv%>:kis		   TAM-Clase2-a ;
+
+
+kualtia%<iv%>:kualti	   TAM-Clase3 ; ! "servir/estar bueno/no pudrido"
+tlajtoa%<iv%>:tlajto	   TAM-Clase3 ; ! "hablar"
+panoa%<iv%>:pano	   TAM-Clase3 ; ! "pasar"
+chantia%<iv%>:chanti	   TAM-Clase3 ; ! "vivir"
+
+
+ueli%<iv%>:ueli		   TAM-Clase4 ;
+
+
+LEXICON TV-Raiz
+
+kua%<tv%>:kua		   TAM-Clase4 ; ! "consumir/comer"
+paleuia%<tv%>:paleui	   TAM-Clase3 ; ! "ayudar"
+panoa%<tv%>pano		   TAM-Clase3 ; ! "pasar (a alguien/algo)"
+paktia%<tv%>:pakti	   TAM-Clase3 ; ! "hacer feliz / gustar"
+ijtoa%<tv%>:ijto           TAM-Clase3   ; ! "decir"
+tlalia%<tv%>:tlali	   TAM-Clase3 ; ! "poner 
+machtia%<tv%>:machti	   TAM-Clase3 ; ! "enseñar/hacer saber"
+
+chiua%<tv%>:chiu           TAM-Clase2-a ; ! "hacer"
+kaua%<tv%>:kau             TAM-Clase2-a ; ! "dejar"
+koua%<tv%>:kou             TAM-Clase2-a ; ! "comprar"
+chipaua%<tv%>:chipau	   TAM-Clase2-a ; ! "limpiar"
+xipeua%<tv%>:xipeu	   TAM-Clase2-a ; ! "pelar"
+paka%<tv%>:pak		   TAM-Clase2-a ; ! "lavar"
+piya%<tv%>:pi%{y%}	   TAM-Clase2-a ; ! "tener"
+
+kaki%<tv%>:kak             TAM-Clase2-i ; ! "escuchar"
+mati%<tv%>:mat             TAM-Clase2-i ; ! "saber"
+teki%<tv%>:tek             TAM-Clase2-i ; ! "cortar"
+tejteki%<tv%>:tejtek       TAM-Clase2-i ; ! "cortar varias veces"
+neki%<tv%>:nek             TAM-Clase2-i ; ! "querer"
+
+namaka%<tv%>:namaka	   TAM-Clase1 ; ! "vender s.t."
+tlasojtla%<tv%>:tlasojtla  TAM-Clase1 ; ! "amar"
+ita%<tv%>:it		   TAM-Clase1-ita ; !"ver"
+
+LEXICON DV-Raiz
+maka%<tv2%>:maka       	   TAM-Clase1 ; ! "dar"
+iluia%<tv2%>:ilui	   TAM-Clase3 ; ! "decir"
+
